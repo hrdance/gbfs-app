@@ -1,0 +1,3078 @@
+{
+  "last_updated": 1724796082,
+  "ttl": 120,
+  "version": "2.2",
+  "data": {
+    "stations": [
+      {
+        "station_id": "2976",
+        "name": "Salford Museum and Art Gallery",
+        "lat": 53.484746,
+        "lon": -2.272844,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2976&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2976&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "2977",
+        "name": "Sanctuary Students/Broughton Road East",
+        "lat": 53.493549,
+        "lon": -2.27323,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2977&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2977&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "2978",
+        "name": "University of Salford - Maxwell Hall Building",
+        "lat": 53.484537,
+        "lon": -2.271173,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2978&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2978&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "2979",
+        "name": "Sanctuary Students",
+        "lat": 53.49364,
+        "lon": -2.272615,
+        "capacity": 2,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2979&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2979&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "2980",
+        "name": "University of Salford - Peel Park",
+        "lat": 53.489129,
+        "lon": -2.272452,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2980&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2980&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "2981",
+        "name": "University of Salford - Newton Building",
+        "lat": 53.486323,
+        "lon": -2.273373,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2981&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2981&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "2982",
+        "name": "University of Salford - Library Caf\u00e9",
+        "lat": 53.487961,
+        "lon": -2.273358,
+        "capacity": 4,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2982&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2982&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "2983",
+        "name": "Salford Crescent Station Main Entrance",
+        "lat": 53.48582,
+        "lon": -2.276189,
+        "capacity": 17,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2983&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2983&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "2984",
+        "name": "University of Salford - Frederick Road Campus",
+        "lat": 53.48802,
+        "lon": -2.279305,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2984&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2984&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "2991",
+        "name": "Citylabs 1.0",
+        "lat": 53.462158,
+        "lon": -2.22924,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2991&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2991&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "2992",
+        "name": "MMU - Cambridge Hall",
+        "lat": 53.469117,
+        "lon": -2.240329,
+        "capacity": 7,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2992&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2992&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "2993",
+        "name": "Manchester Museum",
+        "lat": 53.466037,
+        "lon": -2.23372,
+        "capacity": 11,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2993&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2993&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "2994",
+        "name": "Circle Square/Oxford Road",
+        "lat": 53.47257,
+        "lon": -2.239108,
+        "capacity": 16,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2994&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2994&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "2995",
+        "name": "MediaCityUK - Tomorrow",
+        "lat": 53.473198,
+        "lon": -2.301648,
+        "capacity": 7,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2995&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2995&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "2996",
+        "name": "Armitage Centre",
+        "lat": 53.444285,
+        "lon": -2.211219,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2996&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2996&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "2999",
+        "name": "Dover Street",
+        "lat": 53.465177,
+        "lon": -2.232046,
+        "capacity": 23,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2999&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=2999&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3001",
+        "name": "University Shopping Centre",
+        "lat": 53.467239,
+        "lon": -2.235462,
+        "capacity": 14,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3001&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3001&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3004",
+        "name": "Grangethorpe Road",
+        "lat": 53.44829,
+        "lon": -2.220083,
+        "capacity": 13,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3004&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3004&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3005",
+        "name": "MediaCityUK Metrolink",
+        "lat": 53.472231,
+        "lon": -2.296491,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3005&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3005&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3006",
+        "name": "Wilmslow Road/Landcross Road",
+        "lat": 53.443321,
+        "lon": -2.218573,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3006&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3006&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3007",
+        "name": "Fallowfield Campus",
+        "lat": 53.444686,
+        "lon": -2.218283,
+        "capacity": 15,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3007&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3007&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3008",
+        "name": "All Saints Park I",
+        "lat": 53.470612,
+        "lon": -2.237661,
+        "capacity": 21,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3008&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3008&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3009",
+        "name": "Park Crescent",
+        "lat": 53.45354,
+        "lon": -2.223148,
+        "capacity": 0,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3009&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3009&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3010",
+        "name": "The Masdar Building",
+        "lat": 53.473717,
+        "lon": -2.233665,
+        "capacity": 7,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3010&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3010&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3011",
+        "name": "Platt Fields Park II",
+        "lat": 53.448971,
+        "lon": -2.22041,
+        "capacity": 17,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3011&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3011&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3012",
+        "name": "Bridgewater House",
+        "lat": 53.475543,
+        "lon": -2.242257,
+        "capacity": 14,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3012&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3012&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3048",
+        "name": "Grosvenor Street",
+        "lat": 53.470822,
+        "lon": -2.235363,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3048&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3048&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3049",
+        "name": "Aytoun Street",
+        "lat": 53.476951,
+        "lon": -2.233809,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3049&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3049&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3050",
+        "name": "HATCH",
+        "lat": 53.47136,
+        "lon": -2.238042,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3050&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3050&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3051",
+        "name": "The Whitworth Museum",
+        "lat": 53.460218,
+        "lon": -2.227839,
+        "capacity": 4,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3051&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3051&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3052",
+        "name": "Manchester New Square",
+        "lat": 53.47601,
+        "lon": -2.236787,
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3052&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3052&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3053",
+        "name": "Princess Street/Rochdale Canal",
+        "lat": 53.47591,
+        "lon": -2.23808,
+        "capacity": 7,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3053&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3053&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3054",
+        "name": "Sackville Street",
+        "lat": 53.476073,
+        "lon": -2.23566,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3054&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3054&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3055",
+        "name": "DoubleTree / Auburn Street",
+        "lat": 53.478764,
+        "lon": -2.23292,
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3055&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3055&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3056",
+        "name": "Wilbraham Road",
+        "lat": 53.442801,
+        "lon": -2.220353,
+        "capacity": 11,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3056&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3056&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3057",
+        "name": "Rosamond Street West",
+        "lat": 53.469023,
+        "lon": -2.236341,
+        "capacity": 4,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3057&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3057&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3058",
+        "name": "Oxford Road/Dilworth Street",
+        "lat": 53.46274,
+        "lon": -2.230018,
+        "capacity": 20,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3058&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3058&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3059",
+        "name": "Altrincham Street",
+        "lat": 53.475792,
+        "lon": -2.231197,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3059&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3059&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3060",
+        "name": "Oxford Place",
+        "lat": 53.457687,
+        "lon": -2.222267,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3060&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3060&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3061",
+        "name": "Princess Street/Charles Street",
+        "lat": 53.474106,
+        "lon": -2.237044,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3061&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3061&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3062",
+        "name": "Wilmslow Park",
+        "lat": 53.458974,
+        "lon": -2.227392,
+        "capacity": 4,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3062&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3062&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3063",
+        "name": "Old Hall Lane",
+        "lat": 53.446843,
+        "lon": -2.218067,
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3063&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3063&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "3064",
+        "name": "Ducie Street",
+        "lat": 53.479168,
+        "lon": -2.232,
+        "capacity": 13,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3064&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=3064&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4024",
+        "name": "St Peter's Square",
+        "lat": 53.477389,
+        "lon": -2.243707,
+        "capacity": 13,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4024&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4024&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4025",
+        "name": "Booth Street/W Mosley Street",
+        "lat": 53.479298,
+        "lon": -2.24188,
+        "capacity": 9,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4025&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4025&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4026",
+        "name": "Landmark St Peter's Square",
+        "lat": 53.476743,
+        "lon": -2.242947,
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4026&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4026&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4028",
+        "name": "Chester Street",
+        "lat": 53.471738,
+        "lon": -2.242076,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4028&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4028&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4029",
+        "name": "The Hacienda",
+        "lat": 53.474141,
+        "lon": -2.24718,
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4029&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4029&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4030",
+        "name": "Manchester Central Library",
+        "lat": 53.477733,
+        "lon": -2.244558,
+        "capacity": 18,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4030&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4030&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4031",
+        "name": "Watson Street",
+        "lat": 53.477177,
+        "lon": -2.248449,
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4031&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4031&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4041",
+        "name": "Hardman Street",
+        "lat": 53.479567,
+        "lon": -2.249802,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4041&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4041&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4042",
+        "name": "Frederick Street",
+        "lat": 53.484803,
+        "lon": -2.256625,
+        "capacity": 4,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4042&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4042&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4043",
+        "name": "Camp Street/Broughton Lane",
+        "lat": 53.49712,
+        "lon": -2.264402,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4043&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4043&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4044",
+        "name": "Trafford College",
+        "lat": 53.456848,
+        "lon": -2.29009,
+        "capacity": 13,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4044&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4044&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4045",
+        "name": "ABC Buildings",
+        "lat": 53.478827,
+        "lon": -2.25277,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4045&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4045&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4046",
+        "name": "Eccles New Road West",
+        "lat": 53.480332,
+        "lon": -2.292672,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4046&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4046&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4047",
+        "name": "Salford Shopping Precinct",
+        "lat": 53.489039,
+        "lon": -2.289028,
+        "capacity": 11,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4047&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4047&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4048",
+        "name": "The Ainscow",
+        "lat": 53.482743,
+        "lon": -2.258155,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4048&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4048&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4049",
+        "name": "The Vibe/Baronet Walk",
+        "lat": 53.496304,
+        "lon": -2.262226,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4049&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4049&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4050",
+        "name": "Warwick Road South/Rye Bank Road",
+        "lat": 53.451531,
+        "lon": -2.280255,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4050&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4050&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4051",
+        "name": "Moss Lane E/Raby Street",
+        "lat": 53.457802,
+        "lon": -2.240999,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4051&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4051&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4052",
+        "name": "Manchester Cathedral II",
+        "lat": 53.48494,
+        "lon": -2.245384,
+        "capacity": 22,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4052&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4052&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4053",
+        "name": "Burford Road",
+        "lat": 53.449285,
+        "lon": -2.257737,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4053&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4053&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4054",
+        "name": "Silk Street/Cannon Street",
+        "lat": 53.486892,
+        "lon": -2.264463,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4054&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4054&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4055",
+        "name": "Great Ancoats Street",
+        "lat": 53.483308,
+        "lon": -2.229931,
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4055&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4055&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4056",
+        "name": "Brook\u2019s Road",
+        "lat": 53.453261,
+        "lon": -2.273494,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4056&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4056&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4057",
+        "name": "Freeman Square",
+        "lat": 53.466784,
+        "lon": -2.24082,
+        "capacity": 14,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4057&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4057&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4058",
+        "name": "Phoebe Street",
+        "lat": 53.47386,
+        "lon": -2.279515,
+        "capacity": 4,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4058&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4058&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4059",
+        "name": "Egerton Road",
+        "lat": 53.440315,
+        "lon": -2.219095,
+        "capacity": 23,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4059&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4059&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4060",
+        "name": "Sherratt Street",
+        "lat": 53.485329,
+        "lon": -2.229005,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4060&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4060&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4061",
+        "name": "Albion Street/City Road East",
+        "lat": 53.47316,
+        "lon": -2.248502,
+        "capacity": 15,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4061&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4061&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4062",
+        "name": "Broughton Lane",
+        "lat": 53.495858,
+        "lon": -2.257029,
+        "capacity": 9,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4062&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4062&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4063",
+        "name": "Oldham Road/Cornell Street",
+        "lat": 53.485621,
+        "lon": -2.230827,
+        "capacity": 11,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4063&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4063&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4064",
+        "name": "Stretford Road",
+        "lat": 53.4629,
+        "lon": -2.272811,
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4064&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4064&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4065",
+        "name": "Whitworth Park Southwest",
+        "lat": 53.45773,
+        "lon": -2.231539,
+        "capacity": 7,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4065&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4065&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4066",
+        "name": "Trafford Bar Metrolink",
+        "lat": 53.46157,
+        "lon": -2.276602,
+        "capacity": 7,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4066&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4066&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4067",
+        "name": "Orchard Street Industrial Estate",
+        "lat": 53.496037,
+        "lon": -2.282612,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4067&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4067&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4068",
+        "name": "The Crescent/Humphrey Booth House",
+        "lat": 53.483117,
+        "lon": -2.268917,
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4068&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4068&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4069",
+        "name": "Ascension Church Hulme",
+        "lat": 53.467099,
+        "lon": -2.25018,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4069&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4069&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4070",
+        "name": "Silk Street",
+        "lat": 53.487739,
+        "lon": -2.263104,
+        "capacity": 9,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4070&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4070&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4071",
+        "name": "Whalley Road/Withington Road",
+        "lat": 53.456814,
+        "lon": -2.258649,
+        "capacity": 15,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4071&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4071&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4072",
+        "name": "Imperial War Museum Metrolink II",
+        "lat": 53.468472,
+        "lon": -2.296674,
+        "capacity": 15,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4072&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4072&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4073",
+        "name": "Chorlton Road/Stretford Road",
+        "lat": 53.465522,
+        "lon": -2.257952,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4073&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4073&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4074",
+        "name": "Bonsall Street Bridge",
+        "lat": 53.467378,
+        "lon": -2.245159,
+        "capacity": 20,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4074&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4074&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4075",
+        "name": "St John's RC Church",
+        "lat": 53.440854,
+        "lon": -2.282754,
+        "capacity": 24,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4075&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4075&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4076",
+        "name": "Fountain Street",
+        "lat": 53.480668,
+        "lon": -2.240777,
+        "capacity": 9,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4076&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4076&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4077",
+        "name": "Brantingham Road/Egerton Road N",
+        "lat": 53.445744,
+        "lon": -2.270833,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4077&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4077&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4078",
+        "name": "Withington/Wilbraham Road",
+        "lat": 53.443742,
+        "lon": -2.257125,
+        "capacity": 15,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4078&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4078&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4079",
+        "name": "Albert Park",
+        "lat": 53.501015,
+        "lon": -2.262146,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4079&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4079&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4080",
+        "name": "Cobden Street",
+        "lat": 53.493358,
+        "lon": -2.283562,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4080&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4080&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4081",
+        "name": "CitySkills - Salford City College",
+        "lat": 53.491574,
+        "lon": -2.277054,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4081&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4081&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4082",
+        "name": "Old Mill Street",
+        "lat": 53.481004,
+        "lon": -2.22422,
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4082&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4082&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4083",
+        "name": "Piccadilly Gardens I",
+        "lat": 53.481068,
+        "lon": -2.235467,
+        "capacity": 1,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4083&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4083&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4084",
+        "name": "East Union Street",
+        "lat": 53.464289,
+        "lon": -2.265552,
+        "capacity": 2,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4084&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4084&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4085",
+        "name": "Withington Road/William Coates Court",
+        "lat": 53.454281,
+        "lon": -2.258059,
+        "capacity": 14,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4085&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4085&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4086",
+        "name": "Store Street",
+        "lat": 53.478879,
+        "lon": -2.229313,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4086&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4086&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4087",
+        "name": "Royce Road/Chorlton Road",
+        "lat": 53.467813,
+        "lon": -2.258054,
+        "capacity": 7,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4087&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4087&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4088",
+        "name": "Middlewood Street",
+        "lat": 53.47866,
+        "lon": -2.262468,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4088&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4088&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4089",
+        "name": "Great Clowes St/Sussex St",
+        "lat": 53.491967,
+        "lon": -2.259578,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4089&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4089&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4090",
+        "name": "Aspin Lane",
+        "lat": 53.488694,
+        "lon": -2.239045,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4090&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4090&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4091",
+        "name": "Islington Way",
+        "lat": 53.48271,
+        "lon": -2.262246,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4091&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4091&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4092",
+        "name": "Ordsall Park South",
+        "lat": 53.471674,
+        "lon": -2.282048,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4092&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4092&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4093",
+        "name": "Langworthy Road/Jubilee Street",
+        "lat": 53.486174,
+        "lon": -2.294865,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4093&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4093&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4094",
+        "name": "Wilbraham Road/Wellington Road",
+        "lat": 53.442895,
+        "lon": -2.222745,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4094&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4094&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4095",
+        "name": "Whitmore Road/Hart Road",
+        "lat": 53.446282,
+        "lon": -2.23365,
+        "capacity": 2,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4095&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4095&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4096",
+        "name": "Stamford Street/Blackburn Street",
+        "lat": 53.461496,
+        "lon": -2.265129,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4096&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4096&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4097",
+        "name": "Piccadilly Gardens II",
+        "lat": 53.481139,
+        "lon": -2.236058,
+        "capacity": 13,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4097&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4097&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4098",
+        "name": "Stanley Road/Northumberland Road",
+        "lat": 53.462933,
+        "lon": -2.268418,
+        "capacity": 7,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4098&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4098&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4099",
+        "name": "Denmark Road Sport Centre",
+        "lat": 53.460463,
+        "lon": -2.235286,
+        "capacity": 13,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4099&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4099&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4100",
+        "name": "Maine Road",
+        "lat": 53.451169,
+        "lon": -2.236843,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4100&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4100&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4101",
+        "name": "Yew Tree Crescent",
+        "lat": 53.443651,
+        "lon": -2.230244,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4101&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4101&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4102",
+        "name": "Marriotts Court",
+        "lat": 53.48161,
+        "lon": -2.24203,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4102&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4102&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4103",
+        "name": "Trafford Road/Jennings Avenue",
+        "lat": 53.475697,
+        "lon": -2.282625,
+        "capacity": 0,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4103&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4103&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4104",
+        "name": "Fallowfield Library",
+        "lat": 53.446427,
+        "lon": -2.238963,
+        "capacity": 3,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4104&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4104&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4105",
+        "name": "Shrewsbury Street East",
+        "lat": 53.458883,
+        "lon": -2.258545,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4105&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4105&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4106",
+        "name": "Manchester Chinese Christian Church",
+        "lat": 53.454947,
+        "lon": -2.252603,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4106&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4106&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4107",
+        "name": "Greengate Embankment",
+        "lat": 53.48581,
+        "lon": -2.246643,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4107&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4107&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4108",
+        "name": "House of Fraser",
+        "lat": 53.481653,
+        "lon": -2.24755,
+        "capacity": 9,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4108&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4108&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4109",
+        "name": "Stamford Street",
+        "lat": 53.460644,
+        "lon": -2.263375,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4109&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4109&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4110",
+        "name": "Exchange Quay/Colgate Lane",
+        "lat": 53.4666,
+        "lon": -2.283363,
+        "capacity": 3,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4110&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4110&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4111",
+        "name": "Garwood Street",
+        "lat": 53.471487,
+        "lon": -2.249945,
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4111&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4111&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4112",
+        "name": "Kings Road/Warwick Road South",
+        "lat": 53.453418,
+        "lon": -2.282631,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4112&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4112&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4113",
+        "name": "St Mary\u2019s Gate/New Cathedral Street",
+        "lat": 53.483357,
+        "lon": -2.245202,
+        "capacity": 4,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4113&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4113&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4114",
+        "name": "The Parkside",
+        "lat": 53.450528,
+        "lon": -2.238729,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4114&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4114&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4115",
+        "name": "Deansgate/Commercial Street",
+        "lat": 53.47355,
+        "lon": -2.251766,
+        "capacity": 11,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4115&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4115&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4116",
+        "name": "The Old Pint Pot",
+        "lat": 53.483392,
+        "lon": -2.265379,
+        "capacity": 9,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4116&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4116&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4117",
+        "name": "Chinatown/George Street",
+        "lat": 53.479584,
+        "lon": -2.239493,
+        "capacity": 4,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4117&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4117&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4118",
+        "name": "Ayres Road",
+        "lat": 53.457346,
+        "lon": -2.274508,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4118&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4118&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4119",
+        "name": "Oldham Road/Great Ancoats Street",
+        "lat": 53.485024,
+        "lon": -2.232242,
+        "capacity": 16,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4119&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4119&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4120",
+        "name": "Chapel Street/Blackfriars Street",
+        "lat": 53.484768,
+        "lon": -2.249015,
+        "capacity": 4,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4120&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4120&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4121",
+        "name": "Charlotte St/Portland St",
+        "lat": 53.478737,
+        "lon": -2.238676,
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4121&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4121&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4122",
+        "name": "Lucy Street",
+        "lat": 53.465319,
+        "lon": -2.260495,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4122&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4122&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4123",
+        "name": "Blackfriars St/Mount St",
+        "lat": 53.48881,
+        "lon": -2.257384,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4123&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4123&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4124",
+        "name": "Old Birley Street",
+        "lat": 53.46414,
+        "lon": -2.248694,
+        "capacity": 23,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4124&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4124&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4125",
+        "name": "Hart Road/Platt Lane",
+        "lat": 53.447214,
+        "lon": -2.236043,
+        "capacity": 9,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4125&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4125&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4126",
+        "name": "Blossom Street",
+        "lat": 53.48476,
+        "lon": -2.228411,
+        "capacity": 7,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4126&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4126&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4127",
+        "name": "Rosamond Drive",
+        "lat": 53.484874,
+        "lon": -2.258995,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4127&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4127&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4128",
+        "name": "Pencroft Way",
+        "lat": 53.464,
+        "lon": -2.23757,
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4128&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4128&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4129",
+        "name": "Addison Crescent/Skerton Road",
+        "lat": 53.454845,
+        "lon": -2.275867,
+        "capacity": 7,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4129&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4129&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4130",
+        "name": "Pall Mall",
+        "lat": 53.48266,
+        "lon": -2.242656,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4130&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4130&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4131",
+        "name": "Sharon Gospel Church",
+        "lat": 53.46151,
+        "lon": -2.25816,
+        "capacity": 7,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4131&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4131&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4132",
+        "name": "Duke Street",
+        "lat": 53.497903,
+        "lon": -2.262201,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4132&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4132&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4133",
+        "name": "Northumberland Road",
+        "lat": 53.457879,
+        "lon": -2.272039,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4133&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4133&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4134",
+        "name": "City Road / Chester Road",
+        "lat": 53.465824,
+        "lon": -2.26574,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4134&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4134&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4135",
+        "name": "Stanley Road/Henrietta Street",
+        "lat": 53.463306,
+        "lon": -2.266374,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4135&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4135&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4136",
+        "name": "Chester Road/Boyer Street",
+        "lat": 53.463155,
+        "lon": -2.279695,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4136&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4136&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4137",
+        "name": "Cross Lane",
+        "lat": 53.481674,
+        "lon": -2.280488,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4137&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4137&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4138",
+        "name": "Dale Street",
+        "lat": 53.479787,
+        "lon": -2.232037,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4138&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4138&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4139",
+        "name": "Egerton Road South",
+        "lat": 53.442462,
+        "lon": -2.270956,
+        "capacity": 9,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4139&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4139&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4140",
+        "name": "Beetham Tower",
+        "lat": 53.475572,
+        "lon": -2.251275,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4140&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4140&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4141",
+        "name": "Eccles New Road East",
+        "lat": 53.479667,
+        "lon": -2.287542,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4141&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4141&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4142",
+        "name": "Soapworks",
+        "lat": 53.467891,
+        "lon": -2.278626,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4142&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4142&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4143",
+        "name": "New York Street",
+        "lat": 53.480103,
+        "lon": -2.239262,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4143&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4143&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4144",
+        "name": "Oldfield Road/Chapel Street",
+        "lat": 53.48287,
+        "lon": -2.264279,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4144&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4144&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4145",
+        "name": "Broad Street / Eccles Old Lane",
+        "lat": 53.492034,
+        "lon": -2.288782,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4145&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4145&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4146",
+        "name": "Royce Road",
+        "lat": 53.468393,
+        "lon": -2.251143,
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4146&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4146&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4147",
+        "name": "Hulme Hall Road",
+        "lat": 53.471862,
+        "lon": -2.263913,
+        "capacity": 9,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4147&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4147&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4148",
+        "name": "National Football Museum",
+        "lat": 53.486225,
+        "lon": -2.242023,
+        "capacity": 14,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4148&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4148&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4149",
+        "name": "New Quay Street",
+        "lat": 53.479529,
+        "lon": -2.254643,
+        "capacity": 7,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4149&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4149&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4150",
+        "name": "South Hall Street",
+        "lat": 53.474701,
+        "lon": -2.26699,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4150&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4150&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4151",
+        "name": "Working Class Movement Library",
+        "lat": 53.484465,
+        "lon": -2.273317,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4151&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4151&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4152",
+        "name": "Platt Fields Park South",
+        "lat": 53.445025,
+        "lon": -2.230505,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4152&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4152&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4153",
+        "name": "Chorlton Library",
+        "lat": 53.445101,
+        "lon": -2.278652,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4153&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4153&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4154",
+        "name": "Deansgate/St Mary's Gate",
+        "lat": 53.48373,
+        "lon": -2.245889,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4154&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4154&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4155",
+        "name": "Bonsall Street",
+        "lat": 53.467967,
+        "lon": -2.241854,
+        "capacity": 7,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4155&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4155&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4156",
+        "name": "Moss Lane E",
+        "lat": 53.460325,
+        "lon": -2.250735,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4156&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4156&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4157",
+        "name": "Manchester Crown Court",
+        "lat": 53.479021,
+        "lon": -2.234913,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4157&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4157&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4158",
+        "name": "Dolefield",
+        "lat": 53.481026,
+        "lon": -2.251084,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4158&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4158&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4159",
+        "name": "Wharfside Way/Victoria Place",
+        "lat": 53.465117,
+        "lon": -2.289805,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4159&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4159&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4160",
+        "name": "Tib Street Car Park",
+        "lat": 53.482948,
+        "lon": -2.236628,
+        "capacity": 7,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4160&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4160&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4161",
+        "name": "Imperial War Museum Metrolink I",
+        "lat": 53.468194,
+        "lon": -2.29563,
+        "capacity": 13,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4161&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4161&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4162",
+        "name": "St Werburgh's Church",
+        "lat": 53.442835,
+        "lon": -2.268034,
+        "capacity": 9,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4162&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4162&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "4163",
+        "name": "Portland Street",
+        "lat": 53.478829,
+        "lon": -2.237905,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4163&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=4163&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5102",
+        "name": "Lower Vickers Street",
+        "lat": 53.487421,
+        "lon": -2.2198,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5102&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5102&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5103",
+        "name": "Etihad Stadium/Rowsley Street",
+        "lat": 53.482122,
+        "lon": -2.203542,
+        "capacity": 14,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5103&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5103&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5104",
+        "name": "Woodward Street",
+        "lat": 53.484228,
+        "lon": -2.221903,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5104&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5104&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5105",
+        "name": "New Islington Marina Promenade",
+        "lat": 53.482233,
+        "lon": -2.221606,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5105&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5105&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5106",
+        "name": "Holt Town Metrolink",
+        "lat": 53.483393,
+        "lon": -2.211968,
+        "capacity": 15,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5106&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5106&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5107",
+        "name": "Pollard Street",
+        "lat": 53.48231,
+        "lon": -2.216627,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5107&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5107&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5108",
+        "name": "Royal Mail Office Oldham Road",
+        "lat": 53.487375,
+        "lon": -2.226514,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5108&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5108&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5109",
+        "name": "New Union Street",
+        "lat": 53.484405,
+        "lon": -2.224342,
+        "capacity": 11,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5109&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5109&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5115",
+        "name": "Hathersage Road",
+        "lat": 53.459569,
+        "lon": -2.217979,
+        "capacity": 11,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5115&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5115&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5116",
+        "name": "Legh Street",
+        "lat": 53.464607,
+        "lon": -2.222521,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5116&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5116&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5117",
+        "name": "Red Bank",
+        "lat": 53.490366,
+        "lon": -2.238755,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5117&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5117&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5118",
+        "name": "Devonshire Street North",
+        "lat": 53.471395,
+        "lon": -2.215647,
+        "capacity": 2,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5118&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5118&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5119",
+        "name": "Darley Street",
+        "lat": 53.481608,
+        "lon": -2.204621,
+        "capacity": 13,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5119&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5119&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5120",
+        "name": "Flixton Road",
+        "lat": 53.462542,
+        "lon": -2.216341,
+        "capacity": 14,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5120&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5120&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5121",
+        "name": "Plymouth Grove/Richmond Grove",
+        "lat": 53.460382,
+        "lon": -2.2093,
+        "capacity": 16,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5121&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5121&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5122",
+        "name": "Brunswick Street",
+        "lat": 53.46917,
+        "lon": -2.225237,
+        "capacity": 4,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5122&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5122&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5123",
+        "name": "Markfield Avenue",
+        "lat": 53.46238,
+        "lon": -2.211227,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5123&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5123&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5168",
+        "name": "Great Cheetham Street West",
+        "lat": 53.501892,
+        "lon": -2.258321,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5168&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5168&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5170",
+        "name": "Langworthy Park/Liverpool Street",
+        "lat": 53.483954,
+        "lon": -2.294834,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5170&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5170&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5187",
+        "name": "Third Avenue",
+        "lat": 53.465974,
+        "lon": -2.309977,
+        "capacity": 9,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5187&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5187&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5188",
+        "name": "Village Metrolink",
+        "lat": 53.467535,
+        "lon": -2.30987,
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5188&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5188&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5189",
+        "name": "Seymour Grove/ Kings Road",
+        "lat": 53.454685,
+        "lon": -2.273958,
+        "capacity": 4,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5189&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5189&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5190",
+        "name": "Wharfside Metrolink",
+        "lat": 53.466148,
+        "lon": -2.287438,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5190&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5190&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5191",
+        "name": "Ayres Road/Chorlton Road",
+        "lat": 53.460205,
+        "lon": -2.25837,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5191&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5191&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5193",
+        "name": "The Quadrant I",
+        "lat": 53.452616,
+        "lon": -2.286318,
+        "capacity": 4,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5193&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5193&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "5194",
+        "name": "Old Trafford Sports Barn",
+        "lat": 53.460663,
+        "lon": -2.273495,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5194&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=5194&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6220",
+        "name": "Alexandra Park/Claremont Road",
+        "lat": 53.454722,
+        "lon": -2.25079,
+        "capacity": 11,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6220&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6220&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6221",
+        "name": "St Werburgh's Road Metrolink",
+        "lat": 53.43887,
+        "lon": -2.266752,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6221&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6221&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6222",
+        "name": "Stockport Road",
+        "lat": 53.465556,
+        "lon": -2.21505,
+        "capacity": 7,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6222&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6222&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6223",
+        "name": "George Leigh Street",
+        "lat": 53.485692,
+        "lon": -2.227907,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6223&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6223&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6224",
+        "name": "University Dental Hospital of Manchester",
+        "lat": 53.465536,
+        "lon": -2.237305,
+        "capacity": 24,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6224&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6224&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6225",
+        "name": "Church Street/Red Lion Street",
+        "lat": 53.48307,
+        "lon": -2.23721,
+        "capacity": 7,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6225&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6225&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6226",
+        "name": "Wellington Place",
+        "lat": 53.476358,
+        "lon": -2.254565,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6226&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6226&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6227",
+        "name": "Byrom Street / Liverpool Rd",
+        "lat": 53.476243,
+        "lon": -2.253097,
+        "capacity": 7,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6227&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6227&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6228",
+        "name": "Minshull Street",
+        "lat": 53.477701,
+        "lon": -2.234104,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6228&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6228&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6229",
+        "name": "Redhill Street",
+        "lat": 53.482638,
+        "lon": -2.228394,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6229&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6229&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6231",
+        "name": "Lincoln Square",
+        "lat": 53.47973,
+        "lon": -2.246586,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6231&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6231&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6232",
+        "name": "Deansgate Square",
+        "lat": 53.472321,
+        "lon": -2.252345,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6232&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6232&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6233",
+        "name": "Brazennose Street",
+        "lat": 53.47995,
+        "lon": -2.247629,
+        "capacity": 9,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6233&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6233&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6235",
+        "name": "Jennings Avenue",
+        "lat": 53.474515,
+        "lon": -2.281758,
+        "capacity": 4,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6235&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6235&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6236",
+        "name": "St Mary's Gate",
+        "lat": 53.483082,
+        "lon": -2.246613,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6236&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6236&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6237",
+        "name": "Ardwick Green",
+        "lat": 53.472149,
+        "lon": -2.227538,
+        "capacity": 9,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6237&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6237&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6321",
+        "name": "Cathedral Gardens",
+        "lat": 53.485642,
+        "lon": -2.24363,
+        "capacity": 0,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6321&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6321&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6322",
+        "name": "Exchange Street",
+        "lat": 53.482911,
+        "lon": -2.245129,
+        "capacity": 0,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6322&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6322&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6365",
+        "name": "True Student Accomodation",
+        "lat": 53.47576,
+        "lon": -2.28553,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6365&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6365&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6366",
+        "name": "Trafford Road / Salford Quays",
+        "lat": 53.470303,
+        "lon": -2.282595,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6366&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6366&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6367",
+        "name": "Harbour City / The Quays",
+        "lat": 53.474127,
+        "lon": -2.291619,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6367&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6367&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6368",
+        "name": "People's History Museum",
+        "lat": 53.481103,
+        "lon": -2.252965,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6368&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6368&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6551",
+        "name": "Broad Street",
+        "lat": 53.487998,
+        "lon": -2.280042,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6551&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6551&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6552",
+        "name": "Trafford Road North",
+        "lat": 53.477403,
+        "lon": -2.283194,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6552&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6552&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6553",
+        "name": "Cleminson Street",
+        "lat": 53.484792,
+        "lon": -2.263228,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6553&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6553&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6612",
+        "name": "Milton Road",
+        "lat": 53.454298,
+        "lon": -2.298463,
+        "capacity": 9,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6612&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6612&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6613",
+        "name": "Milton Road / Talbot Road",
+        "lat": 53.453513,
+        "lon": -2.297114,
+        "capacity": 4,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6613&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6613&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6614",
+        "name": "Chester Road / Burleigh Court",
+        "lat": 53.457162,
+        "lon": -2.295957,
+        "capacity": 14,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6614&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6614&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6615",
+        "name": "Cornbrook / Manchester Waters",
+        "lat": 53.469584,
+        "lon": -2.266431,
+        "capacity": 14,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6615&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6615&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6616",
+        "name": "Edge Lane / Parkview",
+        "lat": 53.44491,
+        "lon": -2.296265,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6616&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6616&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6617",
+        "name": "Seymour Grove Park",
+        "lat": 53.459338,
+        "lon": -2.275016,
+        "capacity": 14,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6617&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6617&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6618",
+        "name": "Myrtle Street",
+        "lat": 53.459011,
+        "lon": -2.266373,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6618&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6618&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6619",
+        "name": "Gladys Street",
+        "lat": 53.459258,
+        "lon": -2.264864,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6619&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6619&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6620",
+        "name": "White City Way",
+        "lat": 53.46234,
+        "lon": -2.282012,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6620&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6620&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6628",
+        "name": "Manzil / Bury New Road",
+        "lat": 53.493217,
+        "lon": -2.249818,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6628&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6628&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6629",
+        "name": "Thomas Street",
+        "lat": 53.483608,
+        "lon": -2.236128,
+        "capacity": 9,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6629&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6629&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6630",
+        "name": "Great Ducie Street / AO Arena",
+        "lat": 53.487812,
+        "lon": -2.245381,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6630&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6630&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6631",
+        "name": "NOMA",
+        "lat": 53.487245,
+        "lon": -2.238321,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6631&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6631&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6632",
+        "name": "Strangeways",
+        "lat": 53.491765,
+        "lon": -2.248336,
+        "capacity": 9,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6632&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6632&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6633",
+        "name": "Angel Street",
+        "lat": 53.488178,
+        "lon": -2.236514,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6633&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6633&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6634",
+        "name": "Procter Young People's Centre",
+        "lat": 53.470058,
+        "lon": -2.251037,
+        "capacity": 13,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6634&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6634&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6635",
+        "name": "Lloyd Street/Thornton Road",
+        "lat": 53.44866,
+        "lon": -2.23942,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6635&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6635&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6636",
+        "name": "Upper Chorlton Road/Seymour Grove",
+        "lat": 53.450524,
+        "lon": -2.273631,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6636&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6636&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6637",
+        "name": "Mauldeth Road West / Chesfield Grove",
+        "lat": 53.438221,
+        "lon": -2.258506,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6637&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6637&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6638",
+        "name": "Lindum Street",
+        "lat": 53.453354,
+        "lon": -2.229054,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6638&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6638&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6641",
+        "name": "Grosvenor Street/Greek Street",
+        "lat": 53.471522,
+        "lon": -2.233125,
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6641&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6641&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6642",
+        "name": "Upper Brook Houses",
+        "lat": 53.466152,
+        "lon": -2.228712,
+        "capacity": 9,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6642&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6642&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6643",
+        "name": "Greenheys Lane / Charles Halle Road",
+        "lat": 53.462123,
+        "lon": -2.240098,
+        "capacity": 25,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6643&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6643&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6644",
+        "name": "St Chrysostom's Church",
+        "lat": 53.457702,
+        "lon": -2.218478,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6644&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6644&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6646",
+        "name": "Ardwick Green South",
+        "lat": 53.470811,
+        "lon": -2.222035,
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6646&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6646&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6647",
+        "name": "Wilmslow Rd / Granville Rd",
+        "lat": 53.43953,
+        "lon": -2.220505,
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6647&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6647&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6648",
+        "name": "Stockport Road / Polygon Avenue",
+        "lat": 53.468019,
+        "lon": -2.221121,
+        "capacity": 9,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6648&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6648&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6649",
+        "name": "Wilmslow Rd / Granville Rd II",
+        "lat": 53.439559,
+        "lon": -2.220182,
+        "capacity": 15,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6649&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6649&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6650",
+        "name": "Greengage",
+        "lat": 53.46533,
+        "lon": -2.218556,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6650&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6650&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6651",
+        "name": "Midland Street",
+        "lat": 53.472523,
+        "lon": -2.21612,
+        "capacity": 15,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6651&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6651&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6652",
+        "name": "Old Mill Street / Tidworth Ave",
+        "lat": 53.483487,
+        "lon": -2.218778,
+        "capacity": 0,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6652&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6652&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6653",
+        "name": "Pin Mill Brow",
+        "lat": 53.475933,
+        "lon": -2.217715,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6653&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6653&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6654",
+        "name": "Carruthers Street",
+        "lat": 53.481164,
+        "lon": -2.215266,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6654&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6654&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6655",
+        "name": "Bradford Road",
+        "lat": 53.484601,
+        "lon": -2.216504,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6655&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6655&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6656",
+        "name": "James Street",
+        "lat": 53.491365,
+        "lon": -2.213338,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6656&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6656&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6657",
+        "name": "Ancoats Green North",
+        "lat": 53.488043,
+        "lon": -2.224059,
+        "capacity": 16,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6657&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6657&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6658",
+        "name": "St George's Community Centre",
+        "lat": 53.488592,
+        "lon": -2.223609,
+        "capacity": 20,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6658&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6658&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6663",
+        "name": "MCFC Green Car Park",
+        "lat": 53.483443,
+        "lon": -2.208112,
+        "capacity": 8,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6663&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6663&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6664",
+        "name": "Oldham Road / Naylor Street",
+        "lat": 53.490164,
+        "lon": -2.220615,
+        "capacity": 20,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6664&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6664&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6665",
+        "name": "Philip's Park Cemetery",
+        "lat": 53.491526,
+        "lon": -2.197743,
+        "capacity": 22,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6665&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6665&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6666",
+        "name": "Oldham Road / Fir Street",
+        "lat": 53.493326,
+        "lon": -2.21709,
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6666&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6666&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6771",
+        "name": "North Road Medical Centre",
+        "lat": 53.483825,
+        "lon": -2.185258,
+        "capacity": 15,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6771&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6771&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6772",
+        "name": "Ashton New Road Bridge",
+        "lat": 53.48312,
+        "lon": -2.188937,
+        "capacity": 15,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6772&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6772&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6773",
+        "name": "Purslow Close",
+        "lat": 53.482292,
+        "lon": -2.209009,
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6773&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6773&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6774",
+        "name": "Hartington Drive",
+        "lat": 53.488601,
+        "lon": -2.184555,
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6774&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6774&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6872",
+        "name": "Etihad Stadium / Ashton New Road",
+        "lat": 53.48161,
+        "lon": -2.20195,
+        "capacity": 18,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6872&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6872&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "6873",
+        "name": "Dickinson Street",
+        "lat": 53.47765,
+        "lon": -2.242591,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6873&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=6873&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "7575",
+        "name": "GM DEPOT",
+        "lat": 53.461534,
+        "lon": -2.319958,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=7575&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=7575&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "7771",
+        "name": "New Islington Metrolink",
+        "lat": 53.481178,
+        "lon": -2.219214,
+        "capacity": 12,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=7771&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=7771&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "7772",
+        "name": "Marble Street",
+        "lat": 53.48097,
+        "lon": -2.2392,
+        "capacity": 5,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=7772&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=7772&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "7773",
+        "name": "Manchester Craft Centre",
+        "lat": 53.484395,
+        "lon": -2.235156,
+        "capacity": 11,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=7773&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=7773&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "7781",
+        "name": "King Street",
+        "lat": 53.481006,
+        "lon": -2.243836,
+        "capacity": 7,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=7781&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=7781&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "7782",
+        "name": "Arundel Street",
+        "lat": 53.47165,
+        "lon": -2.259616,
+        "capacity": 7,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=7782&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=7782&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "7783",
+        "name": "Crown Street",
+        "lat": 53.471888,
+        "lon": -2.254567,
+        "capacity": 6,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=7783&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=7783&scheme_id=15"
+        }
+      },
+      {
+        "station_id": "7785",
+        "name": "Adair Street",
+        "lat": 53.47814,
+        "lon": -2.223248,
+        "capacity": 10,
+        "rental_uris": {
+          "android": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=7785&scheme_id=15",
+          "ios": "https://tfgmcyclehire.app.link/gbfs?$deeplink_path=gbfs_bay&bay_id=7785&scheme_id=15"
+        }
+      }
+    ]
+  }
+}

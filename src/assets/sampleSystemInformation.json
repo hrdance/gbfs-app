@@ -1,0 +1,26 @@
+{
+  "last_updated": 1724799161,
+  "ttl": 120,
+  "version": "2.2",
+  "data": {
+    "system_id": "beryl_greater_manchester",
+    "language": "en",
+    "name": "Beryl",
+    "operator": "Top Floor (6.1), The Green House, 244-254 Cambridge Heath Road, London, E2 9DA",
+    "url": "https://beryl.cc/",
+    "phone_number": "02031965244",
+    "email": "support@beryl.cc",
+    "timezone": "Europe/London",
+    "license_url": "https://cdla.dev/permissive-2-0/",
+    "rental_apps": {
+      "android": {
+        "store_uri": "https://play.google.com/store/apps/details?id=cc.beryl.basis",
+        "discovery_uri": "beryl://"
+      },
+      "ios": {
+        "store_uri": "https://apps.apple.com/app/id1386768364",
+        "discovery_uri": "beryl://"
+      }
+    }
+  }
+}

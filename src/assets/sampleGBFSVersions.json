@@ -1,0 +1,17 @@
+{
+  "last_updated": 1724798923,
+  "ttl": 120,
+  "version": "2.2",
+  "data": {
+    "versions": [
+      {
+        "url": "https://beryl-gbfs-production.web.app/v2/gbfs.json",
+        "version": "2.1"
+      },
+      {
+        "url": "https://beryl-gbfs-production.web.app/v2_2/gbfs.json",
+        "version": "2.2"
+      }
+    ]
+  }
+}

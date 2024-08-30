@@ -1,0 +1,47 @@
+{
+  "last_updated": 1724798923,
+  "ttl": 120,
+  "version": "2.2",
+  "data": {
+    "en": {
+      "feeds": [
+        {
+          "name": "free_bike_status",
+          "url": "https://beryl-gbfs-production.web.app/v2_2/Greater_Manchester/free_bike_status.json"
+        },
+        {
+          "name": "geofencing_zones",
+          "url": "https://beryl-gbfs-production.web.app/v2_2/Greater_Manchester/geofencing_zones.json"
+        },
+        {
+          "name": "station_information",
+          "url": "https://beryl-gbfs-production.web.app/v2_2/Greater_Manchester/station_information.json"
+        },
+        {
+          "name": "station_status",
+          "url": "https://beryl-gbfs-production.web.app/v2_2/Greater_Manchester/station_status.json"
+        },
+        {
+          "name": "system_information",
+          "url": "https://beryl-gbfs-production.web.app/v2_2/Greater_Manchester/system_information.json"
+        },
+        {
+          "name": "system_pricing_plans",
+          "url": "https://beryl-gbfs-production.web.app/v2_2/Greater_Manchester/system_pricing_plans.json"
+        },
+        {
+          "name": "system_regions",
+          "url": "https://beryl-gbfs-production.web.app/v2_2/Greater_Manchester/system_regions.json"
+        },
+        {
+          "name": "vehicle_types",
+          "url": "https://beryl-gbfs-production.web.app/v2_2/Greater_Manchester/vehicle_types.json"
+        },
+        {
+          "name": "gbfs_versions",
+          "url": "https://beryl-gbfs-production.web.app/v2_2/Greater_Manchester/gbfs_versions.json"
+        }
+      ]
+    }
+  }
+}

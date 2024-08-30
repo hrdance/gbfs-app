@@ -1,0 +1,29 @@
+{
+  "last_updated": 1724799161,
+  "ttl": 120,
+  "version": "2.2",
+  "data": {
+    "vehicle_types": [
+      {
+        "vehicle_type_id": "beryl_bike",
+        "form_factor": "bicycle",
+        "propulsion_type": "human",
+        "name": "Beryl Bike"
+      },
+      {
+        "vehicle_type_id": "bbe",
+        "form_factor": "bicycle",
+        "propulsion_type": "electric_assist",
+        "max_range_meters": 80000,
+        "name": "Beryl e-Bike"
+      },
+      {
+        "vehicle_type_id": "scooter",
+        "form_factor": "scooter",
+        "propulsion_type": "electric",
+        "max_range_meters": 30000,
+        "name": "Beryl e-Scooter"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "last_updated": 1724799202,
+  "ttl": 120,
+  "version": "2.2",
+  "data": {
+    "regions": [
+      { "region_id": "86", "name": "University of Salford" },
+      { "region_id": "87", "name": "South" },
+      { "region_id": "88", "name": "East" },
+      { "region_id": "89", "name": "Media City" },
+      { "region_id": "90", "name": "City Centre" },
+      { "region_id": "91", "name": "Oxford Road" },
+      { "region_id": "92", "name": "West" },
+      { "region_id": "93", "name": "North West" }
+    ]
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "last_updated": 1724799201,
+  "ttl": 120,
+  "version": "2.2",
+  "data": {
+    "plans": [
+      {
+        "plan_id": "1135-bike",
+        "type": "bundle",
+        "name": "200 mins",
+        "description": "200 mins",
+        "currency": "GBP",
+        "price": 0,
+        "is_taxable": false,
+        "validity_interval": null,
+        "per_min_pricing": [
+          { "start": 0, "rate": 0.0, "interval": 1, "vehicle_type_id": "bike" }
+        ],
+        "additional_fees": [
+          { "fee": "purchase_price", "price": 10.0, "vehicle_type_id": "bike" },
+          {
+            "fee": "out_of_bundle_minute_increment_cost",
+            "price": 0.05,
+            "vehicle_type_id": "bike"
+          },
+          {
+            "fee": "out_of_service_area_parking_charge",
+            "price": 25.0,
+            "vehicle_type_id": "bike"
+          },
+          {
+            "fee": "out_of_zone_parking_charge",
+            "price": 10.0,
+            "vehicle_type_id": "bike"
+          }
+        ]
+      },
+      {
+        "plan_id": "1135-ebike",
+        "type": "bundle",
+        "name": "200 mins",
+        "description": "200 mins",
+        "currency": "GBP",
+        "price": 1.0,
+        "is_taxable": false,
+        "validity_interval": null,
+        "per_min_pricing": [
+          { "start": 0, "rate": 0.0, "interval": 1, "vehicle_type_id": "ebike" }
+        ],
+        "additional_fees": [
+          {
+            "fee": "purchase_price",
+            "price": 10.0,
+            "vehicle_type_id": "ebike"
+          },
+          {
+            "fee": "out_of_bundle_minute_increment_cost",
+            "price": 0.1,
+            "vehicle_type_id": "ebike"
+          },
+          {
+            "fee": "out_of_service_area_parking_charge",
+            "price": 25.0,
+            "vehicle_type_id": "ebike"
+          },
+          {
+            "fee": "out_of_zone_parking_charge",
+            "price": 10.0,
+            "vehicle_type_id": "ebike"
+          }
+        ]
+      },
+      {
+        "plan_id": "1134-bike",
+        "type": "bundle",
+        "name": "400 mins",
+        "description": "400 mins",
+        "currency": "GBP",
+        "price": 0,
+        "is_taxable": false,
+        "validity_interval": null,
+        "per_min_pricing": [
+          { "start": 0, "rate": 0.0, "interval": 1, "vehicle_type_id": "bike" }
+        ],
+        "additional_fees": [
+          { "fee": "purchase_price", "price": 20.0, "vehicle_type_id": "bike" },
+          {
+            "fee": "out_of_bundle_minute_increment_cost",
+            "price": 0.05,
+            "vehicle_type_id": "bike"
+          },
+          {
+            "fee": "out_of_service_area_parking_charge",
+            "price": 25.0,
+            "vehicle_type_id": "bike"
+          },
+          {
+            "fee": "out_of_zone_parking_charge",
+            "price": 10.0,
+            "vehicle_type_id": "bike"
+          }
+        ]
+      },
+      {
+        "plan_id": "1134-ebike",
+        "type": "bundle",
+        "name": "400 mins",
+        "description": "400 mins",
+        "currency": "GBP",
+        "price": 1.0,
+        "is_taxable": false,
+        "validity_interval": null,
+        "per_min_pricing": [
+          { "start": 0, "rate": 0.0, "interval": 1, "vehicle_type_id": "ebike" }
+        ],
+        "additional_fees": [
+          {
+            "fee": "purchase_price",
+            "price": 20.0,
+            "vehicle_type_id": "ebike"
+          },
+          {
+            "fee": "out_of_bundle_minute_increment_cost",
+            "price": 0.1,
+            "vehicle_type_id": "ebike"
+          },
+          {
+            "fee": "out_of_service_area_parking_charge",
+            "price": 25.0,
+            "vehicle_type_id": "ebike"
+          },
+          {
+            "fee": "out_of_zone_parking_charge",
+            "price": 10.0,
+            "vehicle_type_id": "ebike"
+          }
+        ]
+      },
+      {
+        "plan_id": "1132-bike",
+        "type": "bundle",
+        "name": "100 mins",
+        "description": "100 mins",
+        "currency": "GBP",
+        "price": 0,
+        "is_taxable": false,
+        "validity_interval": null,
+        "per_min_pricing": [
+          { "start": 0, "rate": 0.0, "interval": 1, "vehicle_type_id": "bike" }
+        ],
+        "additional_fees": [
+          { "fee": "purchase_price", "price": 5.0, "vehicle_type_id": "bike" },
+          {
+            "fee": "out_of_bundle_minute_increment_cost",
+            "price": 0.05,
+            "vehicle_type_id": "bike"
+          },
+          {
+            "fee": "out_of_service_area_parking_charge",
+            "price": 25.0,
+            "vehicle_type_id": "bike"
+          },
+          {
+            "fee": "out_of_zone_parking_charge",
+            "price": 10.0,
+            "vehicle_type_id": "bike"
+          }
+        ]
+      },
+      {
+        "plan_id": "1132-ebike",
+        "type": "bundle",
+        "name": "100 mins",
+        "description": "100 mins",
+        "currency": "GBP",
+        "price": 1.0,
+        "is_taxable": false,
+        "validity_interval": null,
+        "per_min_pricing": [
+          { "start": 0, "rate": 0.0, "interval": 1, "vehicle_type_id": "ebike" }
+        ],
+        "additional_fees": [
+          { "fee": "purchase_price", "price": 5.0, "vehicle_type_id": "ebike" },
+          {
+            "fee": "out_of_bundle_minute_increment_cost",
+            "price": 0.1,
+            "vehicle_type_id": "ebike"
+          },
+          {
+            "fee": "out_of_service_area_parking_charge",
+            "price": 25.0,
+            "vehicle_type_id": "ebike"
+          },
+          {
+            "fee": "out_of_zone_parking_charge",
+            "price": 10.0,
+            "vehicle_type_id": "ebike"
+          }
+        ]
+      },
+      {
+        "plan_id": "1131-bike",
+        "type": "bundle",
+        "name": "300 mins",
+        "description": "300 mins",
+        "currency": "GBP",
+        "price": 0,
+        "is_taxable": false,
+        "validity_interval": null,
+        "per_min_pricing": [
+          { "start": 0, "rate": 0.0, "interval": 1, "vehicle_type_id": "bike" }
+        ],
+        "additional_fees": [
+          { "fee": "purchase_price", "price": 15.0, "vehicle_type_id": "bike" },
+          {
+            "fee": "out_of_bundle_minute_increment_cost",
+            "price": 0.05,
+            "vehicle_type_id": "bike"
+          },
+          {
+            "fee": "out_of_service_area_parking_charge",
+            "price": 25.0,
+            "vehicle_type_id": "bike"
+          },
+          {
+            "fee": "out_of_zone_parking_charge",
+            "price": 10.0,
+            "vehicle_type_id": "bike"
+          }
+        ]
+      },
+      {
+        "plan_id": "1131-ebike",
+        "type": "bundle",
+        "name": "300 mins",
+        "description": "300 mins",
+        "currency": "GBP",
+        "price": 1.0,
+        "is_taxable": false,
+        "validity_interval": null,
+        "per_min_pricing": [
+          { "start": 0, "rate": 0.0, "interval": 1, "vehicle_type_id": "ebike" }
+        ],
+        "additional_fees": [
+          {
+            "fee": "purchase_price",
+            "price": 15.0,
+            "vehicle_type_id": "ebike"
+          },
+          {
+            "fee": "out_of_bundle_minute_increment_cost",
+            "price": 0.1,
+            "vehicle_type_id": "ebike"
+          },
+          {
+            "fee": "out_of_service_area_parking_charge",
+            "price": 25.0,
+            "vehicle_type_id": "ebike"
+          },
+          {
+            "fee": "out_of_zone_parking_charge",
+            "price": 10.0,
+            "vehicle_type_id": "ebike"
+          }
+        ]
+      },
+      {
+        "plan_id": "91-bike",
+        "type": "payg",
+        "name": "Pay As You Ride",
+        "description": "Pay As You Ride",
+        "currency": "GBP",
+        "price": 0.5,
+        "is_taxable": false,
+        "validity_interval": null,
+        "per_min_pricing": [
+          { "start": 0, "rate": 0.05, "interval": 1, "vehicle_type_id": "bike" }
+        ],
+        "additional_fees": [
+          { "fee": "purchase_price", "price": 0.0, "vehicle_type_id": "bike" },
+          {
+            "fee": "out_of_service_area_parking_charge",
+            "price": 25.0,
+            "vehicle_type_id": "bike"
+          },
+          {
+            "fee": "out_of_zone_parking_charge",
+            "price": 10.0,
+            "vehicle_type_id": "bike"
+          }
+        ]
+      },
+      {
+        "plan_id": "91-ebike",
+        "type": "payg",
+        "name": "Pay As You Ride",
+        "description": "Pay As You Ride",
+        "currency": "GBP",
+        "price": 1.0,
+        "is_taxable": false,
+        "validity_interval": null,
+        "per_min_pricing": [
+          { "start": 0, "rate": 0.1, "interval": 1, "vehicle_type_id": "ebike" }
+        ],
+        "additional_fees": [
+          { "fee": "purchase_price", "price": 0.0, "vehicle_type_id": "ebike" },
+          {
+            "fee": "out_of_service_area_parking_charge",
+            "price": 25.0,
+            "vehicle_type_id": "ebike"
+          },
+          {
+            "fee": "out_of_zone_parking_charge",
+            "price": 10.0,
+            "vehicle_type_id": "ebike"
+          }
+        ]
+      }
+    ]
+  }
+}
