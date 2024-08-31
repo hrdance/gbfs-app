@@ -12,3 +12,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
 }
+
+/* Make the entire app use the full viewport height */
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Prevent scrolling on the main app container */
+}
+
+/* Sidebar styling */
+.sidebar {
+  overflow-y: auto; /* Allows the sidebar to scroll independently */
+  max-height: calc(100vh - 56px); /* Adjust the sidebar height to fit the screen, subtracting the Navbar height */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content should expand and take the remaining space */
+main {
+  flex-grow: 1; /* Ensures the main content takes the remaining space */
+  overflow-y: auto; /* Allow scrolling within the main content if needed */
+}
