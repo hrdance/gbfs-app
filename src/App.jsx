@@ -4,6 +4,7 @@ import Button from './components/Button';
 import ListGroup from './components/ListGroup';
 import Navbar from './components/Navbar';
 import Map from './components/Map';
+import Map2 from './components/Map2';
 import useFeeds from './functions/useFeeds';
 import useStations from './functions/useStations';
 import './App.css';
@@ -30,16 +31,16 @@ function App() {
   }
   
   const [alertVisible, setAlertVsibility] = useState(false);
-/*
+
   return (
-    <div className='App'>
-      {alertVisible && <Alert text='Message' onClose={() => setAlertVsibility(false)}></Alert>}
+    <div className='App d-flex flex-column vh-100'>
+      {alertVisible && <Alert text='Message' onClose={() => setAlertVsibility(false)} />}
       <Navbar />
       <div className="d-flex flex-grow-1">
-        <aside className="bg-light p-3" style={{ width: '250px' }}>
+        <aside className="sidebar bg-light p-3" style={{ width: '300px', overflowY: 'auto' }}>
           <Button
             text='Button'
-            onClick={() => setAlertVisibility(true)}
+            onClick={() => setAlertVsibility(true)}
           />
           <ListGroup
             heading='Places'
@@ -47,37 +48,12 @@ function App() {
             onSelectItem={handleOnSelectItem}
           />
         </aside>
-        <main className="flex-grow-1 p-3">
-          <Map />
+        <main className="flex-grow-1">
+          <Map2 />
         </main>
       </div>  
     </div>
   );
-*/
-return (
-  <div className='App d-flex flex-column vh-100'>
-    {alertVisible && <Alert text='Message' onClose={() => setAlertVsibility(false)} />}
-    <Navbar />
-    <div className="d-flex flex-grow-1">
-      {/* Sidebar */}
-      <aside className="sidebar bg-light p-3" style={{ width: '250px', overflowY: 'auto' }}>
-        <Button
-          text='Button'
-          onClick={() => setAlertVsibility(true)}
-        />
-        <ListGroup
-          heading='Places'
-          items={items}
-          onSelectItem={handleOnSelectItem}
-        />
-      </aside>
-      {/* Main Content Area */}
-      <main className="flex-grow-1">
-        <Map />
-      </main>
-    </div>  
-  </div>
-);
 }
 
 export default App;
