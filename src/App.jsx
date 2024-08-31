@@ -2,7 +2,10 @@ import { useState, useEffect } from 'react';
 import Alert from './components/Alert';
 import Button from './components/Button';
 import ListGroup from './components/ListGroup';
+import MapComponent from './components/MapComponent';
 import getJSON from './functions/getJSON';
+
+
 
 function App() {
 
@@ -75,6 +78,7 @@ function App() {
         items={items}
         onSelectItem={handleOnSelectItem}
       />
+      <MapComponent />
     </div>
   );
 }
