@@ -23,7 +23,7 @@ const Map = () => {
 
     // Create a MapTiler Layer inside Leaflet
     const mtLayer = new MaptilerLayer({
-      apiKey: "qsMPvMYjWJZi2vvi9t4L",
+      apiKey: "9ZfcK70DucV1bo7wDhwe",
     }).addTo(map.current);
 
   }, [center.lng, center.lat, zoom]);
