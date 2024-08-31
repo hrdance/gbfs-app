@@ -1,9 +1,3 @@
-/*const Alert = ({ children }) => {
-  return (
-    <div className="alert alert-primary">{children}</div>
-  )
-}*/
-
 const Alert = ({ text, onClose }) => {
   return (
     <div className="alert alert-primary alert-dismissible fade show" role="alert">

@@ -10,8 +10,8 @@ import { MaptilerLayer } from "@maptiler/leaflet-maptilersdk";
 const Map = () => {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const center = { lng: 13.338414, lat: 52.507932 };
-  const [zoom] = useState(12);
+  const center = { lng: -2.2463, lat: 53.4767 };
+  const [zoom] = useState(13);
 
   useEffect(() => {
     if (map.current) return;
@@ -23,7 +23,7 @@ const Map = () => {
 
     // Create a MapTiler Layer inside Leaflet
     const mtLayer = new MaptilerLayer({
-      apiKey: "9ZfcK70DucV1bo7wDhwe",
+      apiKey: "7ceN16WDyUIUjj6kQnAT",
     }).addTo(map.current);
 
   }, [center.lng, center.lat, zoom]);

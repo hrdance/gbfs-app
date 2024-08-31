@@ -22,13 +22,13 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20.17.0'  # Specify the exact Node.js version
+          node-version: '20.17.0'
 
       - name: Install dependencies
         run: npm install
 
       - name: Build the React app
-        run: npm run build  # This command should generate the dist folder
+        run: npm run build 
 
       - name: Deploy static site to S3 bucket  
         run: aws s3 sync ./dist s3://harry.dance --delete --acl public-read
