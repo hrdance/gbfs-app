@@ -1,13 +1,4 @@
-import { useState, useEffect } from 'react';
-import Alert from './components/Alert';
-import Button from './components/Button';
-import ListGroup from './components/ListGroup';
-import Map from './components/Map';
-import getJSON from './functions/getJSON';
-import './App.css';
-
-function App() {
-
+function getData() {
   // Base API URL
   const baseURL = 'https://gbfs.beryl.cc/v2_2/Greater_Manchester/gbfs.json';
 
@@ -55,31 +46,8 @@ function App() {
   }, []);
 
   let items = feedNames;
-
-  console.log(stationLon);
-
-  const handleOnSelectItem = (item) => {
-    console.log(item)
-  }
-  
-  const [alertVisible, setAlertVsibility] = useState(false);
-
-  return (
-    <div className='App'>
-      {alertVisible && <Alert text='Message' onClose={() => setAlertVsibility(false)}></Alert>}
-      <Button
-        text='Button'
-        //color='success'
-        onClick={() => setAlertVsibility(true)}
-      />
-      <ListGroup
-        heading='Places'
-        items={items}
-        onSelectItem={handleOnSelectItem}
-      />
-      <Map />
-    </div>
-  );
 }
 
-export default App;
+export default getFreeBikeStatus;
+
+getData();
