@@ -4,7 +4,7 @@ import Button from './components/Button';
 import ListGroup from './components/ListGroup';
 import Navbar from './components/Navbar';
 import Map from './components/Map';
-import Map2 from './components/Map2';
+import Filter from './components/Filter';
 import useFeeds from './functions/useFeeds';
 import useStations from './functions/useStations';
 import './App.css';
@@ -19,12 +19,10 @@ function App() {
   var lookup = feeds ? feeds.find(feed => feed.name === 'station_information') : undefined;
   const stationInformationURL = lookup ? lookup.url : 'URL not found';
 
-  console.log(stationInformationURL);
-
   // Get stations
   const { stations } = useStations(stationInformationURL);
-  console.log(stations);
   const items = stations ? stations.map(station => station.name) : [];
+  //console.log(stations);
 
   const handleOnSelectItem = (item) => {
     console.log(item)
@@ -49,7 +47,7 @@ function App() {
           />
         </aside>
         <main className="flex-grow-1">
-          <Map2 />
+          <Map />
         </main>
       </div>  
     </div>
