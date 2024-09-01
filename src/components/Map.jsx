@@ -5,7 +5,7 @@ import './map.css';
 import { MaptilerLayer } from "@maptiler/leaflet-maptilersdk";
 import pin from '../assets/pin.svg';
 
-const Map = ({ stationData }) => {
+const Map = ({ stationData, sidebarVisible }) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
   const [zoom] = useState(13);
@@ -47,6 +47,12 @@ const Map = ({ stationData }) => {
     });
 
   }, [stationData, zoom]);
+
+  useEffect(() => {
+    if (map.current) {
+      map.current.invalidateSize();
+    }
+  }, [sidebarVisible]);
 
   return (
     <div className="map-wrap">

@@ -66,7 +66,7 @@ function App() {
           </aside>
         )}
         <main className="flex-grow-1">
-          <Map stationData={filteredStations}/>
+          <Map stationData={filteredStations} sidebarVisible={isSidebarVisible}/>
         </main>
       </div>
     </div>
