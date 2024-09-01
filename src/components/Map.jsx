@@ -1,23 +1,15 @@
 import React, { useRef, useEffect, useState } from 'react';
 import "leaflet/dist/leaflet.css";
-import L, { icon } from "leaflet";
+import L from "leaflet";
 import './map.css';
 import { MaptilerLayer } from "@maptiler/leaflet-maptilersdk";
 import pin from '../assets/pin.svg';
 
-const Map = () => {
+const Map = ({ stationData }) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
   const center = { lng: -2.2463, lat: 53.4767 };
   const [zoom] = useState(13);
-
-  // Sample JSON data for station locations
-  const stationData = [
-    { name: 'Station 1', lat: 53.479, lon: -2.245 },
-    { name: 'Station 2', lat: 53.480, lon: -2.247 },
-    { name: 'Station 3', lat: 53.481, lon: -2.246 }
-    // Add more stations as needed
-  ];
 
   useEffect(() => {
     if (map.current) return;
@@ -26,7 +18,6 @@ const Map = () => {
     map.current = new L.Map(mapContainer.current, {
       center: L.latLng(center.lat, center.lng),
       zoom: zoom,
-      //attributionControl: false
     });
 
     // Create a MapTiler Layer inside Leaflet

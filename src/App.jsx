@@ -9,10 +9,11 @@ import './App.css';
 
 function App() {
 
-  // State for sidebar and filtered items
+  // State
   const [isSidebarVisible, setSidebarVisible] = useState(true);
-  const [items, setItems] = useState([]);
   const [filteredItems, setFilteredItems] = useState([]);
+  const [filteredStations, setFilteredStations] = useState([]);
+  const [allStations, setAllStations] = useState([]);
 
   // Base API URL
   const baseURL = 'https://gbfs.beryl.cc/v2_2/Greater_Manchester/gbfs.json';
@@ -27,16 +28,10 @@ function App() {
   
   useEffect(() => {
     if (stations) {
-      const stationNames = stations.map(station => station.name);
-      setItems(stationNames);
-      setFilteredItems(stationNames);
+      setAllStations(stations);
+      setFilteredStations(stations);
     }
   }, [stations]);
-
-  // Handle filtering
-  const handleFilteredItemsChange = useCallback((items) => {
-    setFilteredItems(items);
-  }, []);
 
   // Handle item selection
   const handleOnSelectItem = (item) => {
@@ -56,12 +51,23 @@ function App() {
           <aside
             className={`bg-light p-3 ${isSidebarVisible ? 'sidebar-visible' : 'sidebar-hidden'}`}
           >
-            <Filter items={items} onFilteredItemsChange={handleFilteredItemsChange} />
-            <ListGroup heading='Stations' items={filteredItems} onSelectItem={handleOnSelectItem} />
+            <Filter 
+              items={allStations.map(station => station.name)} 
+              onFilteredItemsChange={(filtered) => {
+                // Filter the allStations array based on the filtered names
+                const newFilteredStations = allStations.filter(station => filtered.includes(station.name));
+                setFilteredStations(newFilteredStations);
+              }} 
+            />
+            <ListGroup 
+              heading='Stations' 
+              items={filteredStations.map(station => station.name)} 
+              onSelectItem={handleOnSelectItem} 
+            />
           </aside>
         )}
         <main className="flex-grow-1">
-          <Map />
+          <Map stationData={filteredStations}/>
         </main>
       </div>
     </div>

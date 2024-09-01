@@ -1,17 +1,19 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 function Filter({ items, onFilteredItemsChange }) {
   const [filterText, setFilterText] = useState('');
 
-  // Function to filter items based on text input
-  const filteredItems = items.filter(item =>
-    item.toLowerCase().includes(filterText.toLowerCase())
-  );
+  // Function to filter items based on the text input
+  const handleChange = (e) => {
+    const text = e.target.value;
+    setFilterText(text);
 
-  // Update parent component with filtered items
-  useEffect(() => {
+    // Filter items based on the input text and notify parent
+    const filteredItems = items.filter(item =>
+      item.toLowerCase().includes(text.toLowerCase())
+    );
     onFilteredItemsChange(filteredItems);
-  }, [filterText, items]);
+  };
 
   return (
     <input
@@ -19,7 +21,7 @@ function Filter({ items, onFilteredItemsChange }) {
       className="form-control mb-3"
       placeholder="Filter items..."
       value={filterText}
-      onChange={(e) => setFilterText(e.target.value)}
+      onChange={handleChange}
     />
   );
 }
