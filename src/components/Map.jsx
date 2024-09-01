@@ -1,8 +1,9 @@
 import React, { useRef, useEffect, useState } from 'react';
 import "leaflet/dist/leaflet.css";
-import L from "leaflet";
+import L, { icon } from "leaflet";
 import './map.css';
 import { MaptilerLayer } from "@maptiler/leaflet-maptilersdk";
+import pin from '../assets/pin.svg';
 
 const Map = () => {
   const mapContainer = useRef(null);
@@ -24,7 +25,8 @@ const Map = () => {
     // Initialize the map
     map.current = new L.Map(mapContainer.current, {
       center: L.latLng(center.lat, center.lng),
-      zoom: zoom
+      zoom: zoom,
+      //attributionControl: false
     });
 
     // Create a MapTiler Layer inside Leaflet
@@ -32,9 +34,17 @@ const Map = () => {
       apiKey: "7ceN16WDyUIUjj6kQnAT",
     }).addTo(map.current);
 
+    // Define a custom icon using the imported SVG file
+    const pinIcon = new L.Icon({
+      iconUrl: pin,
+      iconSize: [32, 32],
+      iconAnchor: [16, 32],
+      popupAnchor: [0, -32]
+    });
+
     // Add markers to the map
     stationData.forEach((station) => {
-      L.marker([station.lat, station.lon])
+      L.marker([station.lat, station.lon], { icon: pinIcon })
         .addTo(map.current)
         .bindPopup(`<b>${station.name}</b>`);
     });

@@ -1,6 +1,5 @@
 import { Fragment, useState } from 'react';
 
-// heading: string, items: string[], onSelectItem (item: string) => void
 function ListGroup({ heading, items, onSelectItem }) {
 
   // Hook

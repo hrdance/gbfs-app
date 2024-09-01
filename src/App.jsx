@@ -1,6 +1,4 @@
-import { useState, useEffect } from 'react';
-import Alert from './components/Alert';
-import Button from './components/Button';
+import { useState, useEffect, useCallback } from 'react';
 import ListGroup from './components/ListGroup';
 import Navbar from './components/Navbar';
 import Map from './components/Map';
@@ -10,6 +8,11 @@ import useStations from './functions/useStations';
 import './App.css';
 
 function App() {
+
+  // State for sidebar and filtered items
+  const [isSidebarVisible, setSidebarVisible] = useState(true);
+  const [items, setItems] = useState([]);
+  const [filteredItems, setFilteredItems] = useState([]);
 
   // Base API URL
   const baseURL = 'https://gbfs.beryl.cc/v2_2/Greater_Manchester/gbfs.json';
@@ -21,35 +24,46 @@ function App() {
 
   // Get stations
   const { stations } = useStations(stationInformationURL);
-  const items = stations ? stations.map(station => station.name) : [];
-  //console.log(stations);
+  
+  useEffect(() => {
+    if (stations) {
+      const stationNames = stations.map(station => station.name);
+      setItems(stationNames);
+      setFilteredItems(stationNames);
+    }
+  }, [stations]);
 
+  // Handle filtering
+  const handleFilteredItemsChange = useCallback((items) => {
+    setFilteredItems(items);
+  }, []);
+
+  // Handle item selection
   const handleOnSelectItem = (item) => {
     console.log(item)
   }
-  
-  const [alertVisible, setAlertVsibility] = useState(false);
+
+  // Toggle sidebar
+  const toggleSidebar = () => {
+    setSidebarVisible(!isSidebarVisible);
+  };
 
   return (
-    <div className='App d-flex flex-column vh-100'>
-      {alertVisible && <Alert text='Message' onClose={() => setAlertVsibility(false)} />}
-      <Navbar />
+    <div className='App'>
+      <Navbar onToggleSidebar={toggleSidebar} />
       <div className="d-flex flex-grow-1">
-        <aside className="sidebar bg-light p-3" style={{ width: '300px', overflowY: 'auto' }}>
-          <Button
-            text='Button'
-            onClick={() => setAlertVsibility(true)}
-          />
-          <ListGroup
-            heading='Places'
-            items={items}
-            onSelectItem={handleOnSelectItem}
-          />
-        </aside>
+        {isSidebarVisible && (
+          <aside
+            className={`bg-light p-3 ${isSidebarVisible ? 'sidebar-visible' : 'sidebar-hidden'}`}
+          >
+            <Filter items={items} onFilteredItemsChange={handleFilteredItemsChange} />
+            <ListGroup heading='Stations' items={filteredItems} onSelectItem={handleOnSelectItem} />
+          </aside>
+        )}
         <main className="flex-grow-1">
           <Map />
         </main>
-      </div>  
+      </div>
     </div>
   );
 }

@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 
 function Filter({ items, onFilteredItemsChange }) {
   const [filterText, setFilterText] = useState('');
-  
-  // Function to filter items based on the text input
+
+  // Function to filter items based on text input
   const filteredItems = items.filter(item =>
     item.toLowerCase().includes(filterText.toLowerCase())
   );
