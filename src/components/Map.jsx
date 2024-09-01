@@ -43,7 +43,12 @@ const Map = ({ stationData, sidebarVisible }) => {
     stationData.forEach((station) => {
       L.marker([station.lat, station.lon], { icon: pinIcon })
         .addTo(map.current)
-        .bindPopup(`<b>${station.name}</b>`);
+        .bindPopup(
+          `<div style="text-align: center;">
+            <b>${station.name}</b><br>
+            Capacity: ${station.capacity}
+          </div>`
+        );
     });
 
   }, [stationData, zoom]);
