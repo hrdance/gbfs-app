@@ -11,7 +11,6 @@ function App() {
 
   // State
   const [isSidebarVisible, setSidebarVisible] = useState(true);
-  const [filteredItems, setFilteredItems] = useState([]);
   const [filteredStations, setFilteredStations] = useState([]);
   const [allStations, setAllStations] = useState([]);
 

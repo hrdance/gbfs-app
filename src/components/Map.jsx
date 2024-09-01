@@ -8,24 +8,30 @@ import pin from '../assets/pin.svg';
 const Map = ({ stationData }) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const center = { lng: -2.2463, lat: 53.4767 };
   const [zoom] = useState(13);
 
   useEffect(() => {
-    if (map.current) return;
+    // Initialize the map if not already initialized
+    if (!map.current) {
+      map.current = new L.Map(mapContainer.current, {
+        center: L.latLng(53.4767, -2.2463),
+        zoom: zoom,
+      });
 
-    // Initialize the map
-    map.current = new L.Map(mapContainer.current, {
-      center: L.latLng(center.lat, center.lng),
-      zoom: zoom,
+      // Create a MapTiler Layer inside Leaflet
+      const mtLayer = new MaptilerLayer({
+        apiKey: "7ceN16WDyUIUjj6kQnAT",
+      }).addTo(map.current);
+    }
+
+    // Clear existing markers
+    map.current.eachLayer((layer) => {
+      if (layer instanceof L.Marker) {
+        map.current.removeLayer(layer);
+      }
     });
 
-    // Create a MapTiler Layer inside Leaflet
-    const mtLayer = new MaptilerLayer({
-      apiKey: "7ceN16WDyUIUjj6kQnAT",
-    }).addTo(map.current);
-
-    // Define a custom icon using the imported SVG file
+    // Set icon
     const pinIcon = new L.Icon({
       iconUrl: pin,
       iconSize: [32, 32],
@@ -39,7 +45,8 @@ const Map = ({ stationData }) => {
         .addTo(map.current)
         .bindPopup(`<b>${station.name}</b>`);
     });
-  }, [center.lng, center.lat, zoom, stationData]);
+
+  }, [stationData, zoom]);
 
   return (
     <div className="map-wrap">
