@@ -50,6 +50,7 @@ function App() {
           <aside
             className={`bg-light p-3 ${isSidebarVisible ? 'sidebar-visible' : 'sidebar-hidden'}`}
           >
+            <h1>Stations</h1>
             <Filter 
               items={allStations.map(station => station.name)} 
               onFilteredItemsChange={(filtered) => {
@@ -59,7 +60,6 @@ function App() {
               }} 
             />
             <ListGroup 
-              heading='Stations' 
               items={filteredStations.map(station => station.name)} 
               onSelectItem={handleOnSelectItem} 
             />

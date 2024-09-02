@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import searchIcon from '../assets/search.svg';
 
 function Filter({ items, onFilteredItemsChange }) {
   const [filterText, setFilterText] = useState('');
@@ -16,13 +17,18 @@ function Filter({ items, onFilteredItemsChange }) {
   };
 
   return (
-    <input
-      type="text"
-      className="form-control mb-3"
-      placeholder="Filter items..."
-      value={filterText}
-      onChange={handleChange}
-    />
+    <div className='input-icon-wrapper'>
+      <input
+        type='text'
+        className='form-control mb-3'
+        placeholder='Filter stations...'
+        value={filterText}
+        onChange={handleChange}
+      />
+      <span className='input-icon'>
+        <img src={searchIcon} alt=''/>
+      </span>
+    </div>
   );
 }
 

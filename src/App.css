@@ -50,3 +50,20 @@ aside {
   width: 100%;
   height: 100%;
 }
+
+/* Filter styling */
+.input-icon-wrapper {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-85%);
+  pointer-events: none;
+}
+
+.form-control {
+  padding-right: 40px
+}

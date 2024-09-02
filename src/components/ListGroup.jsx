@@ -1,13 +1,12 @@
 import { Fragment, useState } from 'react';
 
-function ListGroup({ heading, items, onSelectItem }) {
+function ListGroup({ items, onSelectItem }) {
 
   // Hook
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
   return (
     <Fragment>
-      <h1>{heading}</h1>
       {items.length === 0 && <p>No items found</p>}
       <ul className="list-group">
         {items.map((item, index) => (
