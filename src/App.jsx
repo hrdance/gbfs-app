@@ -24,11 +24,13 @@ function App() {
 
   // Get stations
   const { stations } = useStations(stationInformationURL);
-  
+
   useEffect(() => {
     if (stations) {
-      setAllStations(stations);
-      setFilteredStations(stations);
+      // Sort stations by name
+      const sortedStations = [...stations].sort((a, b) => a.name.localeCompare(b.name));
+      setAllStations(sortedStations);
+      setFilteredStations(sortedStations);
     }
   }, [stations]);
 
@@ -50,7 +52,7 @@ function App() {
           <aside
             className={`bg-light p-3 ${isSidebarVisible ? 'sidebar-visible' : 'sidebar-hidden'}`}
           >
-            <h1>Stations</h1>
+            {false && <h1>Stations</h1>}
             <Filter 
               items={allStations.map(station => station.name)} 
               onFilteredItemsChange={(filtered) => {
@@ -59,7 +61,7 @@ function App() {
                 setFilteredStations(newFilteredStations);
               }} 
             />
-            <ListGroup 
+            <ListGroup
               items={filteredStations.map(station => station.name)} 
               onSelectItem={handleOnSelectItem} 
             />
