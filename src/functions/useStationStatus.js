@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import getJSON from './getJSON';
 
-function useStationInformation(url) {
+function useStationStatus(url) {
 
-  const [stationInformation, setStationInformation] = useState([]);
+  const [stationStatus, setStationStatus] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -13,7 +13,7 @@ function useStationInformation(url) {
         setLoading(true);
         const data = await getJSON(url);
         if (data) {
-          setStationInformation(data.data.stations);
+          setStationStatus(data.data.stations);
         }
       } catch (err) {
         setError(err.message || 'An error occurred while fetching data.');
@@ -24,7 +24,7 @@ function useStationInformation(url) {
     fetchData();
   }, [url]);
 
-  return { stationInformation, loading, error };
+  return { stationStatus, loading, error };
 }
 
-export default useStationInformation;
+export default useStationStatus;

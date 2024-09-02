@@ -48,7 +48,9 @@ const MapComponent = ({ stationData, sidebarVisible, selectedStation }) => {
       marker.bindPopup(
         `<div style="text-align: center;">
           <b>${station.name}</b><br>
-          Capacity: ${station.capacity}
+          Capacity: ${station.capacity}<br>
+          Bikes available: ${station.num_bikes_available}<br>
+          Docks available: ${station.num_docks_available}<br>
         </div>`
       );
 

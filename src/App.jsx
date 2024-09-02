@@ -5,10 +5,11 @@ import MapComponent from './components/MapComponent';
 import Filter from './components/Filter';
 import useFeeds from './functions/useFeeds';
 import useStationInformation from './functions/useStationInformation';
+import useStationStatus from './functions/useStationStatus';
 import './App.css';
 
 function App() {
-  
+
   // State
   const [isSidebarVisible, setSidebarVisible] = useState(true);
   const [filteredStations, setFilteredStations] = useState([]);
@@ -20,20 +21,40 @@ function App() {
 
   // Get feeds
   const { feeds } = useFeeds(baseURL);
-  var lookup = feeds ? feeds.find(feed => feed.name === 'station_information') : undefined;
-  const stationInformationURL = lookup ? lookup.url : 'URL not found';
 
-  // Get stations
-  const { stations } = useStationInformation(stationInformationURL);
+  // Get station infomation
+  var lookup1 = feeds ? feeds.find(feed => feed.name === 'station_information') : undefined;
+  const stationInformationURL = lookup1 ? lookup1.url : 'URL not found';
+  const { stationInformation } = useStationInformation(stationInformationURL);
+
+  // Get station status
+  var lookup2 = feeds ? feeds.find(feed => feed.name === 'station_status') : undefined;
+  const stationStatusURL = lookup2 ? lookup2.url : 'URL not found';
+  const { stationStatus } = useStationStatus(stationStatusURL);
 
   // Manage stations
   useEffect(() => {
-    if (stations) {
-      const sortedStations = [...stations].sort((a, b) => a.name.localeCompare(b.name));
+    if (stationInformation && stationStatus) {
+      // Create a map from station status for quick lookup
+      const statusMap = new Map(stationStatus.map(status => [status.station_id, status]));
+
+      // Merge information and status
+      const mergedStations = stationInformation.map(info => {
+        const status = statusMap.get(info.station_id) || {}; // Default to empty object if no status found
+        return {
+          ...info,
+          ...status
+        };
+      });
+
+      // Sort merged stations by name
+      const sortedStations = mergedStations.sort((a, b) => a.name.localeCompare(b.name));
+
+      // Update state
       setAllStations(sortedStations);
       setFilteredStations(sortedStations);
     }
-  }, [stations]);
+  }, [stationInformation, stationStatus]);
 
   // Handle item selection
   const handleOnSelectItem = (station) => {
