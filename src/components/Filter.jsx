@@ -8,10 +8,8 @@ function Filter({ items, onFilteredItemsChange }) {
   const handleChange = (e) => {
     const text = e.target.value;
     setFilterText(text);
-
-    // Filter items based on the input text and notify parent
     const filteredItems = items.filter(item =>
-      item.toLowerCase().includes(text.toLowerCase())
+      item.name.toLowerCase().includes(text.toLowerCase())
     );
     onFilteredItemsChange(filteredItems);
   };

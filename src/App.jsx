@@ -1,18 +1,19 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect } from 'react';
 import ListGroup from './components/ListGroup';
 import Navbar from './components/Navbar';
-import Map from './components/Map';
+import MapComponent from './components/MapComponent';
 import Filter from './components/Filter';
 import useFeeds from './functions/useFeeds';
-import useStations from './functions/useStations';
+import useStationInformation from './functions/useStationInformation';
 import './App.css';
 
 function App() {
-
+  
   // State
   const [isSidebarVisible, setSidebarVisible] = useState(true);
   const [filteredStations, setFilteredStations] = useState([]);
   const [allStations, setAllStations] = useState([]);
+  const [selectedStation, setSelectedStation] = useState(null);
 
   // Base API URL
   const baseURL = 'https://gbfs.beryl.cc/v2_2/Greater_Manchester/gbfs.json';
@@ -23,11 +24,11 @@ function App() {
   const stationInformationURL = lookup ? lookup.url : 'URL not found';
 
   // Get stations
-  const { stations } = useStations(stationInformationURL);
+  const { stations } = useStationInformation(stationInformationURL);
 
+  // Manage stations
   useEffect(() => {
     if (stations) {
-      // Sort stations by name
       const sortedStations = [...stations].sort((a, b) => a.name.localeCompare(b.name));
       setAllStations(sortedStations);
       setFilteredStations(sortedStations);
@@ -35,9 +36,9 @@ function App() {
   }, [stations]);
 
   // Handle item selection
-  const handleOnSelectItem = (item) => {
-    console.log(item)
-  }
+  const handleOnSelectItem = (station) => {
+    setSelectedStation(station);
+  };
 
   // Toggle sidebar
   const toggleSidebar = () => {
@@ -52,23 +53,26 @@ function App() {
           <aside
             className={`bg-light p-3 ${isSidebarVisible ? 'sidebar-visible' : 'sidebar-hidden'}`}
           >
-            {false && <h1>Stations</h1>}
-            <Filter 
-              items={allStations.map(station => station.name)} 
-              onFilteredItemsChange={(filtered) => {
-                // Filter the allStations array based on the filtered names
-                const newFilteredStations = allStations.filter(station => filtered.includes(station.name));
-                setFilteredStations(newFilteredStations);
-              }} 
-            />
+            <div className="filter-sticky">
+              <Filter 
+                items={allStations}
+                onFilteredItemsChange={(filtered) => {
+                  setFilteredStations(filtered);
+                }} 
+              />
+            </div>
             <ListGroup
-              items={filteredStations.map(station => station.name)} 
+              items={filteredStations}
               onSelectItem={handleOnSelectItem} 
             />
           </aside>
         )}
         <main className="flex-grow-1">
-          <Map stationData={filteredStations} sidebarVisible={isSidebarVisible}/>
+          <MapComponent
+            stationData={filteredStations}
+            sidebarVisible={isSidebarVisible}
+            selectedStation={selectedStation}
+          />
         </main>
       </div>
     </div>

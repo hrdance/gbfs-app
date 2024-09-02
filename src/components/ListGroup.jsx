@@ -1,7 +1,6 @@
 import { Fragment, useState } from 'react';
 
 function ListGroup({ items, onSelectItem }) {
-
   // Hook
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
@@ -16,13 +15,13 @@ function ListGroup({ items, onSelectItem }) {
               ? 'list-group-item active'
               : 'list-group-item'
             }
-            key={item}
+            key={item.id} // Assuming each item has a unique id
             onClick={() => {
               setSelectedIndex(index);
               onSelectItem(item);
             }}
           >
-            {item}
+            {item.name} {/* Displaying name from the item object */}
           </li>
         ))}
       </ul>

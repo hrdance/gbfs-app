@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import getJSON from './getJSON';
 
-function useStations(url) {
+function useStationInformation(url) {
 
   const [stations, setStations] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -27,4 +27,4 @@ function useStations(url) {
   return { stations, loading, error };
 }
 
-export default useStations;
+export default useStationInformation;
