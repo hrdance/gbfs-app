@@ -13,6 +13,7 @@ function App() {
   const [isSidebarVisible, setSidebarVisible] = useState(true);
   const [selectedStation, setSelectedStation] = useState(null);
   const [filteredStations, setFilteredStations] = useState([]);
+  const [filterText, setFilterText] = useState('');
 
   // Base API URL
   const baseURL = 'https://gbfs.beryl.cc/v2_2/Greater_Manchester/gbfs.json';
@@ -29,6 +30,11 @@ function App() {
   // Handle item selection
   const handleOnSelectItem = (station) => {
     setSelectedStation(station);
+  };
+
+  // Handle filter change
+  const handleFilterChange = (text) => {
+    setFilterText(text);
   };
 
   // Toggle sidebar
@@ -52,6 +58,8 @@ function App() {
             <div className="filter-sticky">
               <Filter 
                 items={allStations}
+                filterText={filterText} 
+                onFilterTextChange={handleFilterChange} 
                 onFilteredItemsChange={(filtered) => {
                   setFilteredStations(filtered);
                 }} 

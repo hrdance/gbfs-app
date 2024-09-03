@@ -51,6 +51,8 @@ const MapComponent = ({ stationData, sidebarVisible, selectedStation }) => {
           Capacity: ${station.capacity}<br>
           Bikes available: ${station.num_bikes_available}<br>
           Docks available: ${station.num_docks_available}<br>
+          Beryl: ${station.beryl_bike}<br>
+          Electric: ${station.bbe}<br>
         </div>`
       );
 

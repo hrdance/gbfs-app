@@ -68,7 +68,8 @@ aside {
   right: 10px;
   top: 50%;
   transform: translateY(-55%);
-  pointer-events: none;
+  pointer-events: auto;
+  z-index: 10;
 }
 
 .form-control {
@@ -81,3 +82,4 @@ aside {
   top: 0;
   z-index: 10;
 }
+
