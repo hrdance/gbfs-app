@@ -3,6 +3,8 @@ import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import { MaptilerLayer } from "@maptiler/leaflet-maptilersdk";
 import pin from '../assets/pin.svg';
+import bike from '../assets/bike.svg';
+import electric from '../assets/electric.svg';
 
 const MapComponent = ({ stationData, sidebarVisible, selectedStation }) => {
   const mapContainer = useRef(null);
@@ -44,17 +46,19 @@ const MapComponent = ({ stationData, sidebarVisible, selectedStation }) => {
         icon: pinIcon,
       }).addTo(mapInstance.current);
 
-      // Bind popup to marker
-      marker.bindPopup(
-        `<div style="text-align: center;">
-          <b>${station.name}</b><br>
-          Capacity: ${station.capacity}<br>
-          Bikes available: ${station.num_bikes_available}<br>
-          Docks available: ${station.num_docks_available}<br>
-          Beryl: ${station.beryl_bike}<br>
-          Electric: ${station.bbe}<br>
-        </div>`
-      );
+// Bind popup to marker
+marker.bindPopup(
+  `<div style="text-align: center;">
+    <b>${station.name}</b><br>
+    Capacity: <b>${station.capacity}</b><br>
+    Docks available: <b>${station.num_docks_available}</b><br>
+    Bikes available: <br>
+    <div style="display: flex; align-items: center; justify-content: center;">
+      <b>${station.bbe} </b>  <img src="${bike}" alt="Beryl bike"" /> 
+      <img src="${electric}" alt="Electric bike"" />  <b> ${station.bbe}</b>
+    </div>
+  </div>`
+);
 
       // Store marker by its ID
       markersRef.current.set(station.station_id, marker);

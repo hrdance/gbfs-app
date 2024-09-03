@@ -58,6 +58,13 @@ aside {
   height: 100%;
 }
 
+.icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 /* Filter styling */
 .input-icon-wrapper {
   position: relative;
@@ -82,4 +89,3 @@ aside {
   top: 0;
   z-index: 10;
 }
-

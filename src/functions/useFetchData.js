@@ -30,22 +30,22 @@ function useFetchData(baseURL) {
           fetch(stationStatusURL),
         ]);
 
-        // Error handling for HTTP errors
+        // Error handling
         if (!stationInfoResponse.ok) throw new Error(`HTTP error: ${stationInfoResponse.status}`);
         if (!stationStatusResponse.ok) throw new Error(`HTTP error: ${stationStatusResponse.status}`);
 
-        // Parse the fetched data
+        // Parse JSON
         const stationInfoData = await stationInfoResponse.json();
         const stationStatusData = await stationStatusResponse.json();
 
-        // Extract relevant data, ensure default to empty array if undefined
+        // Extract relevant data
         const stationInformation = stationInfoData.data?.stations || [];
         const stationStatus = stationStatusData.data?.stations || [];
 
-        // Create a map to store bike counts for each station
+        // Map for bike counts
         const bikeCountsMap = {};
 
-        // Populate bike counts from stationStatus
+        // Populate bike counts
         stationStatus.forEach(station => {
           const { station_id, vehicle_types_available } = station;
 
@@ -67,14 +67,11 @@ function useFetchData(baseURL) {
         const statusMap = new Map(stationStatus.map(status => [status.station_id, status]));
         const mergedStations = stationInformation.map(info => {
           const status = statusMap.get(info.station_id) || {};
-
-          // Get bike counts for this station, initialize with default values
           const bikeCounts = bikeCountsMap[info.station_id] || { bbe: 0, beryl_bike: 0 };
-
           return {
             ...info,
             ...status,
-            ...bikeCounts, // Add bike counts to the merged station data
+            ...bikeCounts,
           };
         });
 
@@ -86,7 +83,7 @@ function useFetchData(baseURL) {
         console.log(sortedStations);
 
       } catch (err) {
-        console.error(err); // Log error for debugging
+        console.error(err);
         setError(err.message || 'Error fetching data');
         setLoading(false);
       }
