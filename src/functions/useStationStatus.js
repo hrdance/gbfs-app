@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import getJSON from './getJSON';
 
 function useStationStatus(url) {
 
@@ -9,14 +8,16 @@ function useStationStatus(url) {
 
   useEffect(() => {
     const fetchData = async () => {
+      setLoading(true);
       try {
-        setLoading(true);
-        const data = await getJSON(url);
-        if (data) {
-          setStationStatus(data.data.stations);
+        const response = await fetch(url);
+        if (!response.ok) {
+          throw new Error(`HTTP error: ${response.status}`);
         }
+        const data = await response.json();
+        setStationStatus(data.data.stations);
       } catch (err) {
-        setError(err.message || 'An error occurred while fetching data.');
+        setError(err.message || 'An error occurred while fetching feeds');
       } finally {
         setLoading(false);
       }
