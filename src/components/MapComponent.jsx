@@ -89,6 +89,31 @@ marker.bindPopup(
     }
   }, [sidebarVisible]);
 
+  useEffect(() => {
+    // Get user location and add marker
+    const getUserLocation = () => {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          const { latitude, longitude } = position.coords;
+          // Add user location marker
+          L.marker([latitude, longitude], {
+            icon: pinIcon,
+            title: 'You are here'
+          }).addTo(mapInstance.current)
+            .bindPopup('You are here')
+            .openPopup();
+          // Center map on user location
+          mapInstance.current.setView([latitude, longitude], zoom);
+        },
+        (error) => {
+          console.error('Error getting location:', error);
+        }
+      );
+    };
+
+    getUserLocation();
+  }, []);
+
   return (
     <div className="map-wrap">
       <div ref={mapContainer} className="map" />

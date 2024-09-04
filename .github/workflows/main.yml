@@ -30,8 +30,5 @@ jobs:
       - name: Build the React app
         run: npm run build 
 
-      - name: Deploy static site to S3 bucket harry.dance
-        run: aws s3 sync ./dist s3://harry.dance --delete --acl public-read
-
       - name: Deploy static site to S3 bucket www.harry.dance
         run: aws s3 sync ./dist s3://www.harry.dance --delete --acl public-read 
