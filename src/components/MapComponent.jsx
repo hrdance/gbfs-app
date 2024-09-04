@@ -5,6 +5,7 @@ import { MaptilerLayer } from "@maptiler/leaflet-maptilersdk";
 import pin from '../assets/pin.svg';
 import bike from '../assets/bike.svg';
 import electric from '../assets/electric.svg';
+import location from '../assets/location.svg';
 
 const MapComponent = ({ stationData, sidebarVisible, selectedStation }) => {
   const mapContainer = useRef(null);
@@ -97,7 +98,7 @@ marker.bindPopup(
           const { latitude, longitude } = position.coords;
           // Add user location marker
           L.marker([latitude, longitude], {
-            icon: pinIcon,
+            icon: location,
             title: 'You are here'
           }).addTo(mapInstance.current)
             .bindPopup('You are here')
