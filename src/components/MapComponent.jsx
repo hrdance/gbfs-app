@@ -27,9 +27,17 @@ const MapComponent = ({ stationData, sidebarVisible, selectedStation }) => {
       }).addTo(mapInstance.current);
     }
 
-    // Define icon
+    // Station icon
     const pinIcon = new L.Icon({
       iconUrl: pin,
+      iconSize: [32, 32],
+      iconAnchor: [16, 32],
+      popupAnchor: [0, -32]
+    });
+
+    // Location icon
+    const locationIcon = new L.Icon({
+      iconUrl: location,
       iconSize: [32, 32],
       iconAnchor: [16, 32],
       popupAnchor: [0, -32]
@@ -47,19 +55,19 @@ const MapComponent = ({ stationData, sidebarVisible, selectedStation }) => {
         icon: pinIcon,
       }).addTo(mapInstance.current);
 
-// Bind popup to marker
-marker.bindPopup(
-  `<div style="text-align: center;">
-    <b>${station.name}</b><br>
-    Capacity: <b>${station.capacity}</b><br>
-    Docks available: <b>${station.num_docks_available}</b><br>
-    Bikes available: <br>
-    <div style="display: flex; align-items: center; justify-content: center;">
-      <b>${station.bbe} </b>  <img src="${bike}" alt="Beryl bike"" /> 
-      <img src="${electric}" alt="Electric bike"" />  <b> ${station.bbe}</b>
-    </div>
-  </div>`
-);
+    // Bind popup to marker
+    marker.bindPopup(
+      `<div style="text-align: center;">
+        <b>${station.name}</b><br>
+        Capacity: <b>${station.capacity}</b><br>
+        Docks available: <b>${station.num_docks_available}</b><br>
+        Bikes available: <br>
+        <div style="display: flex; align-items: center; justify-content: center;">
+          <b>${station.bbe} </b>  <img src="${bike}" alt="Beryl bike"" /> 
+          <img src="${electric}" alt="Electric bike"" />  <b> ${station.bbe}</b>
+        </div>
+      </div>`
+    );
 
       // Store marker by its ID
       markersRef.current.set(station.station_id, marker);
@@ -98,7 +106,7 @@ marker.bindPopup(
           const { latitude, longitude } = position.coords;
           // Add user location marker
           L.marker([latitude, longitude], {
-            icon: location,
+            icon: locationIcon,
             title: 'You are here'
           }).addTo(mapInstance.current)
             .bindPopup('You are here')
