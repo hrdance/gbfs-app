@@ -12,7 +12,7 @@ const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation 
   const mapContainer = useRef(null);
   const mapInstance = useRef(null);
   const markersRef = useRef(new Map());
-  const [zoom] = useState(13);
+  const [zoom, setZoom] = useState(13);
 
   // Station icon
   const pinIcon = new L.Icon({
@@ -39,50 +39,56 @@ const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation 
   });
 
   useEffect(() => {
-    // Initialize the map
+    // Initialize the map only once
     if (!mapInstance.current) {
       mapInstance.current = new L.Map(mapContainer.current, {
         center: L.latLng(53.47, -2.248),
         zoom: zoom,
       });
-
+  
       // Create MapTiler layer in Leaflet
       new MaptilerLayer({
         apiKey: "7ceN16WDyUIUjj6kQnAT",
       }).addTo(mapInstance.current);
     }
-
-    // Clear existing markers
-    markersRef.current.forEach((marker) => {
-      mapInstance.current.removeLayer(marker);
-    });
-    markersRef.current.clear();
-
-    // Add markers to map
+  
+    // Update or add markers to map
     stationData.forEach((station) => {
-      const marker = L.marker([station.lat, station.lon], {
-        icon: station.beryl_bike > 0 || station.bbe > 0 ? pinIcon : unavailableIcon,
-      }).addTo(mapInstance.current);
-
-      // Bind popup to marker
-      marker.bindPopup(
-        `<div style="text-align: center;">
-          <b>${station.name}</b><br>
-          Capacity: <b>${station.capacity}</b><br>
-          Docks available: <b>${station.num_docks_available}</b><br>
-          Bikes available: <br>
-          <div style="display: flex; align-items: center; justify-content: center;">
-            <b>${station.bbe}</b>  <img src="${bike}" alt="Beryl bike" /> 
-            <img src="${electric}" alt="Electric bike" />  <b>${station.bbe}</b>
-          </div>
-        </div>`
-      );
-
-      // Store marker by its ID
-      markersRef.current.set(station.station_id, marker);
+      const existingMarker = markersRef.current.get(station.station_id);
+  
+      if (existingMarker) {
+        // Update existing marker's position and icon if necessary
+        existingMarker.setLatLng([station.lat, station.lon]);
+        existingMarker.setIcon(
+          station.beryl_bike > 0 || station.bbe > 0 ? pinIcon : unavailableIcon
+        );
+      } else {
+        // Create a new marker if it doesn't exist
+        const marker = L.marker([station.lat, station.lon], {
+          icon: station.beryl_bike > 0 || station.bbe > 0 ? pinIcon : unavailableIcon,
+        }).addTo(mapInstance.current);
+  
+        // Bind popup to marker
+        marker.bindPopup(
+          `<div style="text-align: center;">
+            <b>${station.name}</b><br>
+            Capacity: <b>${station.capacity}</b><br>
+            Docks available: <b>${station.num_docks_available}</b><br>
+            Bikes available: <br>
+            <div style="display: flex; align-items: center; justify-content: center;">
+              <b>${station.bbe}</b>  <img src="${bike}" alt="Beryl bike" /> 
+              <img src="${electric}" alt="Electric bike" />  <b>${station.bbe}</b>
+            </div>
+          </div>`
+        );
+  
+        // Store the marker
+        markersRef.current.set(station.station_id, marker);
+      }
     });
-
-  }, [stationData, zoom]);
+  
+  }, [stationData]);
+  
 
   // Handle station selectiion
   useEffect(() => {
@@ -106,7 +112,7 @@ const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation 
     }
   }, [sidebarVisible]);
 
-  // Expose centerMap method to parent component
+  // Expose centerMap method to App
   useImperativeHandle(ref, () => ({
     centreMapOnUser() {
       navigator.geolocation.getCurrentPosition(
@@ -117,7 +123,8 @@ const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation 
             title: 'You are here'
           }).addTo(mapInstance.current).bindPopup('You are here');
 
-          mapInstance.current.setView([latitude, longitude], zoom);
+          setZoom(14);
+          mapInstance.current.setView([latitude, longitude], 14);
         },
         (error) => {
           console.error('Error getting location:', error);
