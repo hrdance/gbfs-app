@@ -5,7 +5,7 @@ import refreshIcon from '../assets/refresh.svg';
 import branchIcon from '../assets/branch.svg';
 import centreIcon from '../assets/centre.svg';
 
-const Navbar = ({ onToggleSidebar }) => {
+const Navbar = ({ onToggleSidebar, onCentreView }) => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -21,7 +21,7 @@ const Navbar = ({ onToggleSidebar }) => {
               color={'light'}
               altText={'Centre View'}
               imageSrc={centreIcon}
-              onClick={console.log('Centre View')}
+              onClick={onCentreView}
             />
             <IconButton
               color={'light'}

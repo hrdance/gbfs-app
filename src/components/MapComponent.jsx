@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect, useState, useImperativeHandle, forwardRef } from 'react';
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import { MaptilerLayer } from "@maptiler/leaflet-maptilersdk";
@@ -8,7 +8,7 @@ import electric from '../assets/electric.svg';
 import location from '../assets/location.svg';
 import unavailable from '../assets/unavailable.svg';
 
-const MapComponent = ({ stationData, sidebarVisible, selectedStation }) => {
+const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation }, ref) => {
   const mapContainer = useRef(null);
   const mapInstance = useRef(null);
   const markersRef = useRef(new Map());
@@ -72,8 +72,8 @@ const MapComponent = ({ stationData, sidebarVisible, selectedStation }) => {
           Docks available: <b>${station.num_docks_available}</b><br>
           Bikes available: <br>
           <div style="display: flex; align-items: center; justify-content: center;">
-            <b>${station.bbe} </b>  <img src="${bike}" alt="Beryl bike" /> 
-            <img src="${electric}" alt="Electric bike" />  <b> ${station.bbe}</b>
+            <b>${station.bbe}</b>  <img src="${bike}" alt="Beryl bike" /> 
+            <img src="${electric}" alt="Electric bike" />  <b>${station.bbe}</b>
           </div>
         </div>`
       );
@@ -84,59 +84,53 @@ const MapComponent = ({ stationData, sidebarVisible, selectedStation }) => {
 
   }, [stationData, zoom]);
 
+  // Handle station selectiion
   useEffect(() => {
     if (mapInstance.current && selectedStation) {
-      // Close any previously opened popups
+      // Close existing popup
       mapInstance.current.closePopup();
-
-      // Manage selected marker
       const selectedMarker = markersRef.current.get(selectedStation.station_id);
       if (selectedMarker) {
         // Open popup
         selectedMarker.openPopup();
-
         // Center map
         mapInstance.current.setView([selectedStation.lat, selectedStation.lon], mapInstance.current.getZoom());
       }
     }
   }, [selectedStation]);
 
+  // Redraw when sidebar toggled
   useEffect(() => {
     if (mapInstance.current) {
       mapInstance.current.invalidateSize();
     }
   }, [sidebarVisible]);
 
-  useEffect(() => {
-    // Get user location and add marker
-    const getUserLocation = () => {
+  // Expose centerMap method to parent component
+  useImperativeHandle(ref, () => ({
+    centreMapOnUser() {
       navigator.geolocation.getCurrentPosition(
         (position) => {
           const { latitude, longitude } = position.coords;
-          // Add user location marker
           L.marker([latitude, longitude], {
             icon: locationIcon,
             title: 'You are here'
-          }).addTo(mapInstance.current)
-            .bindPopup('You are here')
-  
-          // Center map on user location
-          //mapInstance.current.setView([latitude, longitude], zoom);
+          }).addTo(mapInstance.current).bindPopup('You are here');
+
+          mapInstance.current.setView([latitude, longitude], zoom);
         },
         (error) => {
           console.error('Error getting location:', error);
         }
       );
-    };
-
-    getUserLocation();
-  }, [zoom]);
+    }
+  }));
 
   return (
     <div className="map-wrap">
       <div ref={mapContainer} className="map" />
     </div>
   );
-}
+})
 
 export default MapComponent;

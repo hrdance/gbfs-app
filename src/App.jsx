@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import ListGroup from './components/ListGroup';
 import Navbar from './components/Navbar';
 import MapComponent from './components/MapComponent';
@@ -14,6 +14,7 @@ function App() {
   const [selectedStation, setSelectedStation] = useState(null);
   const [filteredStations, setFilteredStations] = useState([]);
   const [filterText, setFilterText] = useState('');
+  const mapRef = useRef(null);
 
   // Base API URL
   const baseURL = 'https://gbfs.beryl.cc/v2_2/Greater_Manchester/gbfs.json';
@@ -42,6 +43,13 @@ function App() {
     setSidebarVisible(!isSidebarVisible);
   };
 
+  // Handle centre view
+  const handleCentreView = () => {
+    if (mapRef.current) {
+      mapRef.current.centreMapOnUser();
+    }
+  };
+
   // Display loading or error
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
@@ -49,7 +57,10 @@ function App() {
   // Draw app
   return (
     <div className='App'>
-      <Navbar onToggleSidebar={toggleSidebar} />
+      <Navbar
+        onCentreView={handleCentreView}
+        onToggleSidebar={toggleSidebar}
+      />
       <div className="d-flex flex-grow-1">
         {isSidebarVisible && (
           <aside
@@ -76,6 +87,7 @@ function App() {
             stationData={filteredStations}
             sidebarVisible={isSidebarVisible}
             selectedStation={selectedStation}
+            ref={mapRef}
           />
         </main>
       </div>
