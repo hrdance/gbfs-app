@@ -6,6 +6,7 @@ import pin from '../assets/pin.svg';
 import bike from '../assets/bike.svg';
 import electric from '../assets/electric.svg';
 import location from '../assets/location.svg';
+import unavailable from '../assets/unavailable.svg';
 
 const MapComponent = ({ stationData, sidebarVisible, selectedStation }) => {
   const mapContainer = useRef(null);
@@ -21,12 +22,20 @@ const MapComponent = ({ stationData, sidebarVisible, selectedStation }) => {
     popupAnchor: [0, -32]
   });
 
+  // Unavailable station icon
+  const unavailableIcon = new L.Icon({
+    iconUrl: unavailable,
+    iconSize: [32, 32],
+    iconAnchor: [16, 32],
+    popupAnchor: [0, -32]
+  });
+
   // Location icon
   const locationIcon = new L.Icon({
     iconUrl: location,
     iconSize: [32, 32],
-    iconAnchor: [16, 32],
-    popupAnchor: [0, -32]
+    iconAnchor: [16, 16],
+    popupAnchor: [0, -16]
   });
 
   useEffect(() => {
@@ -52,7 +61,7 @@ const MapComponent = ({ stationData, sidebarVisible, selectedStation }) => {
     // Add markers to map
     stationData.forEach((station) => {
       const marker = L.marker([station.lat, station.lon], {
-        icon: pinIcon,
+        icon: station.beryl_bike > 0 || station.bbe > 0 ? pinIcon : unavailableIcon,
       }).addTo(mapInstance.current);
 
       // Bind popup to marker
@@ -112,7 +121,7 @@ const MapComponent = ({ stationData, sidebarVisible, selectedStation }) => {
             .bindPopup('You are here')
   
           // Center map on user location
-          mapInstance.current.setView([latitude, longitude], zoom);
+          //mapInstance.current.setView([latitude, longitude], zoom);
         },
         (error) => {
           console.error('Error getting location:', error);

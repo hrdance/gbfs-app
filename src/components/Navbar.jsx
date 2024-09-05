@@ -3,6 +3,7 @@ import IconTextButton from './IconTextButton';
 import menuIcon from '../assets/menu.svg';
 import refreshIcon from '../assets/refresh.svg';
 import branchIcon from '../assets/branch.svg';
+import centreIcon from '../assets/centre.svg';
 
 const Navbar = ({ onToggleSidebar }) => {
   return (
@@ -15,6 +16,12 @@ const Navbar = ({ onToggleSidebar }) => {
               altText={'Toggle Sidebar'}
               imageSrc={menuIcon}
               onClick={onToggleSidebar}
+            />
+            <IconButton
+              color={'light'}
+              altText={'Centre View'}
+              imageSrc={centreIcon}
+              onClick={console.log('Centre View')}
             />
             <IconButton
               color={'light'}
