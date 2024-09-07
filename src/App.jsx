@@ -54,8 +54,6 @@ function App() {
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
 
-  console.log(filteredStations);
-
   // Draw app
   return (
     <div className='App'>
