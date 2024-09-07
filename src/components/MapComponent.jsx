@@ -76,7 +76,7 @@ const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation 
             Docks available: <b>${station.num_docks_available}</b><br>
             Bikes available: <br>
             <div style="display: flex; align-items: center; justify-content: center;">
-              <b>${station.bbe}</b>  <img src="${bike}" alt="Beryl bike" /> 
+              <b>${station.beryl_bike}</b>  <img src="${bike}" alt="Beryl bike" /> 
               <img src="${electric}" alt="Electric bike" />  <b>${station.bbe}</b>
             </div>
           </div>`
