@@ -3,12 +3,15 @@ import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import { MaptilerLayer } from "@maptiler/leaflet-maptilersdk";
 import pin from '../assets/pin.svg';
-import bike from '../assets/bike.svg';
-import electric from '../assets/electric.svg';
 import location from '../assets/location.svg';
 import unavailable from '../assets/unavailable.svg';
+import ReactDOMServer from "react-dom/server";
+import StationPopup from './StationPopup';
+import LocationPopup from './LocationPopup';
+import '../App.css'
 
 const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation }, ref) => {
+
   const mapContainer = useRef(null);
   const mapInstance = useRef(null);
   const markersRef = useRef(new Map());
@@ -19,7 +22,7 @@ const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation 
     iconUrl: pin,
     iconSize: [32, 32],
     iconAnchor: [16, 32],
-    popupAnchor: [0, -32]
+    popupAnchor: [0, -48]
   });
 
   // Unavailable station icon
@@ -27,7 +30,7 @@ const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation 
     iconUrl: unavailable,
     iconSize: [32, 32],
     iconAnchor: [16, 32],
-    popupAnchor: [0, -32]
+    popupAnchor: [0, -48]
   });
 
   // Location icon
@@ -35,7 +38,7 @@ const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation 
     iconUrl: location,
     iconSize: [32, 32],
     iconAnchor: [16, 16],
-    popupAnchor: [0, -16]
+    popupAnchor: [0, -28]
   });
 
   useEffect(() => {
@@ -69,18 +72,7 @@ const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation 
         }).addTo(mapInstance.current);
   
         // Bind popup to marker
-        marker.bindPopup(
-          `<div style="text-align: center;">
-            <b>${station.name}</b><br>
-            Capacity: <b>${station.capacity}</b><br>
-            Docks available: <b>${station.num_docks_available}</b><br>
-            Bikes available: <br>
-            <div style="display: flex; align-items: center; justify-content: center;">
-              <b>${station.beryl_bike}</b>  <img src="${bike}" alt="Beryl bike" /> 
-              <img src="${electric}" alt="Electric bike" />  <b>${station.bbe}</b>
-            </div>
-          </div>`
-        );
+        marker.bindPopup(ReactDOMServer.renderToString(<StationPopup station={station}/>), {closeButton: false});
   
         // Store the marker
         markersRef.current.set(station.station_id, marker);
@@ -89,7 +81,6 @@ const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation 
   
   }, [stationData]);
   
-
   // Handle station selectiion
   useEffect(() => {
     if (mapInstance.current && selectedStation) {
@@ -121,15 +112,20 @@ const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation 
           L.marker([latitude, longitude], {
             icon: locationIcon,
             title: 'You are here'
-          }).addTo(mapInstance.current).bindPopup('You are here');
+          }).addTo(mapInstance.current).bindPopup(ReactDOMServer.renderToString(<LocationPopup/>), {closeButton: false});
 
-          setZoom(14);
-          mapInstance.current.setView([latitude, longitude], 14);
+          setZoom(15);
+          mapInstance.current.setView([latitude, longitude], 15);
         },
         (error) => {
           console.error('Error getting location:', error);
         }
       );
+    },
+    setView(coords, zoom) {
+      if (mapInstance.current) {
+        mapInstance.current.setView(coords, zoom);
+      }
     }
   }));
 

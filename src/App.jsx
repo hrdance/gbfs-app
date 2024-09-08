@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import MapComponent from './components/MapComponent';
 import Filter from './components/Filter';
 import useFetchData from './functions/useFetchData';
-
 import './App.css';
 
 function App() {
@@ -50,6 +49,13 @@ function App() {
     }
   };
 
+  // Handle reframe
+  const handleReframe = () => {
+    if (mapRef.current) {
+      mapRef.current.setView([53.47, -2.248], 13);
+    }
+  };
+
   // Display loading or error
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
@@ -60,6 +66,7 @@ function App() {
       <Navbar
         onCentreView={handleCentreView}
         onToggleSidebar={toggleSidebar}
+        onReframe={handleReframe}
       />
       <div className="d-flex flex-grow-1">
         {isSidebarVisible && (

@@ -4,8 +4,9 @@ import menuIcon from '../assets/menu.svg';
 import refreshIcon from '../assets/refresh.svg';
 import branchIcon from '../assets/branch.svg';
 import centreIcon from '../assets/centre.svg';
+import reframeIcon from '../assets/reframe.svg';
 
-const Navbar = ({ onToggleSidebar, onCentreView }) => {
+const Navbar = ({ onToggleSidebar, onCentreView, onReframe }) => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -22,6 +23,12 @@ const Navbar = ({ onToggleSidebar, onCentreView }) => {
               altText={'Centre View'}
               imageSrc={centreIcon}
               onClick={onCentreView}
+            />
+            <IconButton
+              color={'light'}
+              altText={'Reframe'}
+              imageSrc={reframeIcon}
+              onClick={onReframe}
             />
             <IconButton
               color={'light'}

@@ -65,6 +65,16 @@ aside {
   margin-left: 10px;
 }
 
+/* Popup styling */
+.leaflet-popup, .leaflet-popup-content-wrapper, .leaflet-popup-content
+{
+ margin-top: 0;
+ margin-bottom: 0;
+ margin-left: 0;
+ margin-right: 0;
+
+}
+
 /* Filter styling */
 .input-icon-wrapper {
   position: relative;
