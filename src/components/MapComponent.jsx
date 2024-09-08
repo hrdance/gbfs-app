@@ -16,6 +16,7 @@ const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation 
   const mapInstance = useRef(null);
   const markersRef = useRef(new Map());
   const [zoom, setZoom] = useState(13);
+  const locationMarkerRef = useRef(null);
 
   // Station icon
   const pinIcon = new L.Icon({
@@ -109,11 +110,19 @@ const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation 
       navigator.geolocation.getCurrentPosition(
         (position) => {
           const { latitude, longitude } = position.coords;
-          L.marker([latitude, longitude], {
+          
+          // Remove existing location marker
+          if (locationMarkerRef.current) {
+            mapInstance.current.removeLayer(locationMarkerRef.current);
+          }
+
+          // Create new location marker
+          locationMarkerRef.current = L.marker([latitude, longitude], {
             icon: locationIcon,
             title: 'You are here'
           }).addTo(mapInstance.current).bindPopup(ReactDOMServer.renderToString(<LocationPopup/>), {closeButton: false});
 
+          // Zoom in on user
           setZoom(15);
           mapInstance.current.setView([latitude, longitude], 15);
         },

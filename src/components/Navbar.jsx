@@ -1,12 +1,22 @@
+import { useState } from 'react';
 import IconButton from './IconButton';
 import IconTextButton from './IconTextButton';
+import Dropdown from './Dropdown';
 import menuIcon from '../assets/menu.svg';
 import refreshIcon from '../assets/refresh.svg';
 import branchIcon from '../assets/branch.svg';
 import centreIcon from '../assets/centre.svg';
 import reframeIcon from '../assets/reframe.svg';
 
-const Navbar = ({ onToggleSidebar, onCentreView, onReframe }) => {
+const Navbar = ({ onToggleSidebar, onCentreView, onReframe, locations, onSelectLocation, selectedLocation }) => {
+
+  const [dropdownVisible, setDropdownVisible] = useState(false);
+
+  // Toggle dropdown
+  const onToggleDropdown = () => {
+    setDropdownVisible(!dropdownVisible);
+  };
+
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -28,7 +38,7 @@ const Navbar = ({ onToggleSidebar, onCentreView, onReframe }) => {
               color={'light'}
               altText={'Reframe'}
               imageSrc={reframeIcon}
-              onClick={onReframe}
+              onClick={() => onReframe(selectedLocation.lat, selectedLocation.lon, 13)}
             />
             <IconButton
               color={'light'}
@@ -39,6 +49,16 @@ const Navbar = ({ onToggleSidebar, onCentreView, onReframe }) => {
             <h1 className='navbar-brand custom-navbar-brand'>GBFS Viewer</h1>
           </div>
           <div className="d-flex align-items-center">
+          <Dropdown
+              altText={'Choose location'}
+              color={'light'}
+              onToggleDropdown={onToggleDropdown}
+              dropdownVisible={dropdownVisible}
+              locations={locations}
+              onSelectLocation={onSelectLocation}
+              onReframe={onReframe(selectedLocation.lat, selectedLocation.lon, 13)}
+              selectedLocation={selectedLocation}
+            />
             <IconTextButton
               color={'light'}
               text={'Github'}

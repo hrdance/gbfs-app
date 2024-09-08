@@ -9,6 +9,14 @@ import './App.css';
 function App() {
 
   // State
+  const [baseURL, setBaseURL] = useState('https://gbfs.beryl.cc/v2_2/Greater_Manchester/gbfs.json');
+  const [selectedLocation, setSelectedLocation] = useState({
+    "id": 1,
+    "name": "Manchester",
+    "url": "https://gbfs.beryl.cc/v2_2/Greater_Manchester/gbfs.json",
+    "lat" : 53.470,
+    "lon" : -2.248
+  });
   const [isSidebarVisible, setSidebarVisible] = useState(true);
   const [selectedStation, setSelectedStation] = useState(null);
   const [filteredStations, setFilteredStations] = useState([]);
@@ -16,10 +24,35 @@ function App() {
   const mapRef = useRef(null);
 
   // Base API URL
-  const baseURL = 'https://gbfs.beryl.cc/v2_2/Greater_Manchester/gbfs.json';
+  //const baseURL = 'https://gbfs.beryl.cc/v2_2/Greater_Manchester/gbfs.json';
+
+  const locations = {
+    "location": [
+      {
+        "id": 1,
+        "name": "Manchester",
+        "url": "https://gbfs.beryl.cc/v2_2/Greater_Manchester/gbfs.json",
+        "lat" : 53.470,
+        "lon" : -2.248
+      },
+      {
+        "id": 2,
+        "name": "West Midlands",
+        "url": "https://gbfs.beryl.cc/v2_2/West_Midlands/gbfs.json",
+        "lat" : 52.482,
+        "lon" : -1.890
+      }
+    ]
+  };
 
   // Get station data
   const { allStations, loading, error } = useFetchData(baseURL);
+
+  // Handle location selection
+  const handleSelectLocation = (location) => {
+    setBaseURL(location.url);
+    setSelectedLocation(location);
+  };
 
   useEffect(() => {
     if (allStations.length) {
@@ -49,12 +82,12 @@ function App() {
     }
   };
 
-  // Handle reframe
-  const handleReframe = () => {
-    if (mapRef.current) {
-      mapRef.current.setView([53.47, -2.248], 13);
-    }
-  };
+// Handle reframing
+const handleReframe = (lat, lon, zoom) => {
+  if (mapRef.current) {
+    mapRef.current.setView([lat, lon], zoom);
+  }
+};
 
   // Display loading or error
   if (loading) return <div>Loading...</div>;
@@ -67,6 +100,9 @@ function App() {
         onCentreView={handleCentreView}
         onToggleSidebar={toggleSidebar}
         onReframe={handleReframe}
+        locations={locations.location}
+        onSelectLocation={handleSelectLocation}
+        selectedLocation={selectedLocation}
       />
       <div className="d-flex flex-grow-1">
         {isSidebarVisible && (
@@ -83,10 +119,14 @@ function App() {
                 }} 
               />
             </div>
-            <ListGroup
-              items={filteredStations}
-              onSelectItem={handleOnSelectItem} 
-            />
+            {loading ? (
+              <div>Loading...</div>
+            ) : (
+              <ListGroup
+                items={filteredStations}
+                onSelectItem={handleOnSelectItem} 
+              />
+            )}
           </aside>
         )}
         <main className="flex-grow-1">
