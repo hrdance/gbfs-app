@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import IconButton from './IconButton';
 import IconTextButton from './IconTextButton';
 import Dropdown from './Dropdown';
@@ -8,14 +7,7 @@ import branchIcon from '../assets/branch.svg';
 import centreIcon from '../assets/centre.svg';
 import reframeIcon from '../assets/reframe.svg';
 
-const Navbar = ({ onToggleSidebar, onCentreView, onReframe, locations, onSelectLocation, selectedLocation }) => {
-
-  const [dropdownVisible, setDropdownVisible] = useState(false);
-
-  // Toggle dropdown
-  const onToggleDropdown = () => {
-    setDropdownVisible(!dropdownVisible);
-  };
+const Navbar = ({ onToggleSidebar, onCentreView, onReframe, onRefresh, locations, onSelectLocation, selectedLocation }) => {
 
   return (
     <div>
@@ -38,25 +30,22 @@ const Navbar = ({ onToggleSidebar, onCentreView, onReframe, locations, onSelectL
               color={'light'}
               altText={'Reframe'}
               imageSrc={reframeIcon}
-              onClick={() => onReframe(selectedLocation.lat, selectedLocation.lon, 13)}
+              onClick={() => onReframe(selectedLocation.lat, selectedLocation.lon, selectedLocation.zoom)}
             />
             <IconButton
               color={'light'}
               altText={'Refresh'}
               imageSrc={refreshIcon}
-              onClick={() => console.log('Refresh')}
+              onClick={onRefresh}
             />
-            <h1 className='navbar-brand custom-navbar-brand'>GBFS Viewer</h1>
+            <h1 className='navbar-brand custom-navbar-brand'>Beryl Bikes Viewer</h1>
           </div>
           <div className="d-flex align-items-center">
           <Dropdown
               altText={'Choose location'}
               color={'light'}
-              onToggleDropdown={onToggleDropdown}
-              dropdownVisible={dropdownVisible}
               locations={locations}
               onSelectLocation={onSelectLocation}
-              onReframe={onReframe(selectedLocation.lat, selectedLocation.lon, 13)}
               selectedLocation={selectedLocation}
             />
             <IconTextButton

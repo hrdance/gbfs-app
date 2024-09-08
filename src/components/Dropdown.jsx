@@ -1,36 +1,44 @@
 import mapIcon from '../assets/map.svg';
 
-const Dropdown = ({ altText, color, dropdownVisible, onToggleDropdown, selectedLocation, locations, onSelectLocation, onReframe }) => {
+const Dropdown = ({
+  altText,
+  color,
+  selectedLocation,
+  locations,
+  onSelectLocation,
+}) => {
   return (
     <div className="dropdown">
       <button
         className={"dropdown-toggle justify-content-center align-items-center btn btn-" + color}
         data-bs-toggle="dropdown"
-        onClick={onToggleDropdown}
-        aria-expanded={dropdownVisible}
+        aria-expanded="false"
       >
-        <img src={mapIcon} alt={altText} style={{ width: '24px', height: '24px', marginRight: '8px' }} />
+        <img
+          src={mapIcon}
+          alt={altText}
+          style={{ width: '24px', height: '24px', marginRight: '8px' }}
+        />
         {selectedLocation.name}
       </button>
-      <div className={`dropdown-menu ${dropdownVisible ? 'show' : ''}`} aria-labelledby="dropdownMenuButton">
+      <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
         {locations.map((location) => (
-          <a
-            key={location.id}
-            className="dropdown-item"
-            href="#"
-            onClick={(e) => {
-              e.preventDefault();
-              onSelectLocation(location);
-              onReframe(location.lat, location.lon, 13)
-            }}
-          >
-            {location.name}
-          </a>
+          <li key={location.id}>
+            <a
+              className="dropdown-item"
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                onSelectLocation(location);
+              }}
+            >
+              {location.name}
+            </a>
+          </li>
         ))}
-      </div>
+      </ul>
     </div>
   );
 };
 
 export default Dropdown;
-
