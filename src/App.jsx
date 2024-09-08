@@ -7,6 +7,8 @@ import useFetchData from './functions/useFetchData';
 import './App.css';
 
 function App() {
+
+  // Locations
   const locations = {
     "location": [
       {
@@ -22,12 +24,13 @@ function App() {
         "name": "West Midlands",
         "url": "https://gbfs.beryl.cc/v2_2/West_Midlands/gbfs.json",
         "lat": 52.482,
-        "lon": -1.9,
+        "lon": -1.900,
         "zoom": 11
       },
     ],
   };
 
+  // State
   const [selectedLocation, setSelectedLocation] = useState(locations.location[0]);
   const [baseURL, setBaseURL] = useState(selectedLocation.url);
   const [isSidebarVisible, setSidebarVisible] = useState(true);
@@ -35,8 +38,8 @@ function App() {
   const [filteredStations, setFilteredStations] = useState([]);
   const [filterText, setFilterText] = useState('');
   const mapRef = useRef(null);
-
-  const { allStations, loading, error } = useFetchData(baseURL);
+  const [shouldRefresh, setShouldRefresh] = useState(false);
+  const { allStations, loading, error } = useFetchData(baseURL + (shouldRefresh ? '?refresh' : ''));
 
   // Handle location selection
   const handleSelectLocation = useCallback((location) => {
@@ -64,9 +67,8 @@ function App() {
     setSelectedStation(station);
   };
 
-  // Handle refresh
   const handleRefresh = useCallback(() => {
-    setBaseURL((prevBaseURL) => prevBaseURL);
+    setShouldRefresh((prev) => !prev);
   }, []);
 
   // Handle filtering stations
