@@ -6,41 +6,42 @@
   overflow: hidden;
 }
 
+main {
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden; 
+  align-items: stretch;
+}
+
 /* Navbar styling */
 .navbar {
   height: 56px; 
 }
 
-main {
-  flex-grow: 1;
-  overflow: hidden; 
-}
-
 .custom-navbar-brand {
   text-align: center;
-  margin: 0 auto;
+  margin: auto;
   margin-left: 5px;
   margin-right: 5px;
 }
 
 /* Sidebar styling */
-.sidebar-hidden {
-  transform: translateX(-100%);
-  transition: transform 0.3s ease;
-}
-
-.sidebar-visible {
-  transform: translateX(0);
-  transition: transform 0.3s ease;
-}
-
 aside {
-  width: 400px; 
+  width: 400px;
   height: calc(100vh - 56px); 
   overflow-y: auto;
   position: relative;
   display: flex;
   flex-direction: column;
+  transition: width 0.3s ease;
+}
+
+.sidebar-hidden {
+  width: 0;
+}
+
+.sidebar-visible {
+  width: 400px;
 }
 
 /* Map styling */
@@ -52,27 +53,14 @@ aside {
 
 .map {
   position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-}
-
-.icon {
-  width: 18px;
-  height: 18px;
-  margin-right: 10px;
-  margin-left: 10px;
 }
 
 /* Popup styling */
 .leaflet-popup, .leaflet-popup-content-wrapper, .leaflet-popup-content
 {
- margin-top: 0;
- margin-bottom: 0;
- margin-left: 0;
- margin-right: 0;
-
+ margin: 0;
 }
 
 /* Filter styling */
@@ -86,11 +74,6 @@ aside {
   top: 50%;
   transform: translateY(-55%);
   pointer-events: auto;
-  z-index: 10;
-}
-
-.form-control {
-  padding-right: 40px
 }
 
 .filter-sticky {
@@ -98,4 +81,30 @@ aside {
   position: sticky;
   top: 0;
   z-index: 10;
+}
+
+/* List group styling */
+.list-group-item {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Button styling*/
+.btn {
+  transition: background-color 0.3s ease !important;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+/* Dropdown item styling*/
+.dropdown-item {
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0 !important;
 }

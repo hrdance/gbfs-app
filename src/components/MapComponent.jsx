@@ -10,7 +10,7 @@ import StationPopup from './StationPopup';
 import LocationPopup from './LocationPopup';
 import '../App.css'
 
-const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation }, ref) => {
+const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation, selectedLocation }, ref) => {
 
   const mapContainer = useRef(null);
   const mapInstance = useRef(null);
@@ -44,8 +44,8 @@ const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation 
   useEffect(() => {
     if (!mapInstance.current) {
       mapInstance.current = new L.Map(mapContainer.current, {
-        center: L.latLng(53.47, -2.248),
-        zoom: 13,
+        center: L.latLng(selectedLocation.lat, selectedLocation.lon),
+        zoom: selectedLocation.zoom,
       });
 
       new MaptilerLayer({
@@ -54,6 +54,7 @@ const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation 
     }
 
     if (mapInstance.current) {
+
       // Remove all existing markers
       markersRef.current.forEach(marker => {
         mapInstance.current.removeLayer(marker);
@@ -80,7 +81,7 @@ const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation 
       });
     }
 
-  }, [stationData]);
+  }, [stationData, sidebarVisible]);
 
   useEffect(() => {
     if (mapInstance.current && selectedStation) {
@@ -91,13 +92,7 @@ const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation 
         mapInstance.current.setView([selectedStation.lat, selectedStation.lon], mapInstance.current.getZoom());
       }
     }
-  }, [selectedStation]);
-
-  useEffect(() => {
-    if (mapInstance.current) {
-      mapInstance.current.invalidateSize();
-    }
-  }, [sidebarVisible]);
+  }, [selectedStation, sidebarVisible]);
 
   useImperativeHandle(ref, () => ({
     centreMapOnUser() {
@@ -114,7 +109,6 @@ const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation 
             title: 'You are here'
           }).addTo(mapInstance.current).bindPopup(ReactDOMServer.renderToString(<LocationPopup/>), {closeButton: false});
 
-          //mapInstance.current.setZoom(15);
           mapInstance.current.setView([latitude, longitude], 15);
         },
         (error) => {
@@ -124,10 +118,9 @@ const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation 
     },
     setView(coords, zoom) {
       if (mapInstance.current) {
-        //mapInstance.current.setZoom(zoom);
         mapInstance.current.setView(coords, zoom);
       }
-    }
+    },
   }));
 
   return (

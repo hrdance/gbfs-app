@@ -1,11 +1,11 @@
-import { Fragment, useState } from 'react';
+import { useState } from 'react';
 
 function ListGroup({ items, onSelectItem }) {
 
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
   return (
-    <Fragment>
+    <div>
       {items.length === 0 && <p>No items found</p>}
       <ul className="list-group">
         {items.map((item, index) => (
@@ -25,7 +25,7 @@ function ListGroup({ items, onSelectItem }) {
           </li>
         ))}
       </ul>
-    </Fragment>
+    </div>
   );
 }
 

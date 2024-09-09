@@ -67,6 +67,7 @@ function App() {
     setSelectedStation(station);
   };
 
+  // Handle refresh
   const handleRefresh = useCallback(() => {
     setShouldRefresh((prev) => !prev);
   }, []);
@@ -76,6 +77,7 @@ function App() {
     setFilterText(text);
   };
 
+  // Filter stations based on text input
   useEffect(() => {
     if (filterText) {
       const filtered = allStations.filter(station =>
@@ -90,6 +92,7 @@ function App() {
   // Handle toggling sidebar
   const toggleSidebar = () => {
     setSidebarVisible(!isSidebarVisible);
+   // setShouldRefresh((prev) => !prev);
   };
 
   // Centre view on user location
@@ -113,32 +116,31 @@ function App() {
         selectedLocation={selectedLocation}
       />
       <div className="d-flex flex-grow-1">
-        {isSidebarVisible && (
-          <aside className={`bg-light p-3 ${isSidebarVisible ? 'sidebar-visible' : 'sidebar-hidden'}`}>
-            <div className="filter-sticky">
-              <Filter 
-                items={filteredStations}
-                filterText={filterText}
-                onFilterTextChange={handleFilterChange}
-                onFilteredItemsChange={(filtered) => setFilteredStations(filtered)}
-              />
-            </div>
-            {loading ? (
-              <div>Loading...</div>
-            ) : (
-              <ListGroup
-                items={filteredStations}
-                onSelectItem={handleOnSelectItem}
-              />
-            )}
-          </aside>
-        )}
+        <aside className={`bg-light ${isSidebarVisible ? 'p-3 sidebar-visible' : 'py-3 sidebar-hidden'}`}>
+          <div className="filter-sticky">
+            <Filter 
+              items={filteredStations}
+              filterText={filterText}
+              onFilterTextChange={handleFilterChange}
+              onFilteredItemsChange={(filtered) => setFilteredStations(filtered)}
+            />
+          </div>
+          {loading ? (
+            <div>Loading...</div>
+          ) : (
+            <ListGroup
+              items={filteredStations}
+              onSelectItem={handleOnSelectItem}
+            />
+          )}
+        </aside>
         <main className="flex-grow-1">
           <MapComponent
             stationData={filteredStations}
             sidebarVisible={isSidebarVisible}
             selectedStation={selectedStation}
             ref={mapRef}
+            selectedLocation={selectedLocation}
           />
         </main>
       </div>
