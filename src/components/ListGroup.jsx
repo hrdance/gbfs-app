@@ -12,8 +12,8 @@ function ListGroup({ items, onSelectItem }) {
           <li
             className={
               selectedIndex === index
-              ? 'list-group-item active'
-              : 'list-group-item'
+              ? 'list-group-item custom-list-group-item active'
+              : 'list-group-item custom-list-group-item'
             }
             key={item.id}
             onClick={() => {

@@ -1,5 +1,6 @@
 import bike from '../assets/bike.svg';
 import electric from '../assets/electric.svg';
+import phone from '../assets/phone.svg';
 import '../App.css';
 
 const StationPopup = ({ station }) => {
@@ -24,7 +25,7 @@ const StationPopup = ({ station }) => {
         <li className="list-group-item d-flex justify-content-center align-items-center border-bottom" style={{ border: 'none' }}>
           <b>Bikes available</b>
         </li>
-        <li className="list-group-item d-flex" style={{ border: 'none' }}>
+        <li className="list-group-item d-flex border-bottom" style={{ border: 'none' }}>
           <span className="d-flex flex-grow-1 justify-content-center align-items-center border-end ps-0 px-2">
             <b>{station.beryl_bike}</b>
           </span>
@@ -37,6 +38,19 @@ const StationPopup = ({ station }) => {
           <span className="d-flex flex-grow-1 justify-content-center align-items-center pe-0 px-2">
             <b>{station.bbe}</b>
           </span>
+        </li>
+        <li className="list-group-item custom-list-group-item align-items-center" style={{ border: 'none' }}>
+          <a
+            href={station.rental_uris.android}
+            className="d-flex justify-content-center align-items-center text-decoration-none"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div>
+              <img src={phone} height={20} width={20} alt="Hire" />
+              <b className="px-2" style={{ color: 'black' }}>Hire</b>
+              </div>
+          </a>
         </li>
       </ul>
     </div>

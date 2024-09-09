@@ -19,6 +19,7 @@ main {
 }
 
 .custom-navbar-brand {
+  cursor: default;
   text-align: center;
   margin: auto;
   margin-left: 5px;
@@ -85,11 +86,15 @@ aside {
 
 /* List group styling */
 .list-group-item {
+  cursor: default;
+}
+
+.custom-list-group-item {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-.list-group-item:hover {
+.custom-list-group-item:hover {
   background-color: #f0f0f0;
 }
 
