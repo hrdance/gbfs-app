@@ -4,31 +4,12 @@ import Navbar from './components/Navbar';
 import MapComponent from './components/MapComponent';
 import Filter from './components/Filter';
 import useFetchData from './functions/useFetchData';
+import locationData from './assets/locations.json';
 import './App.css';
 
 function App() {
 
-  // Locations
-  const locations = {
-    "location": [
-      {
-        "id": 1,
-        "name": "Manchester",
-        "url": "https://gbfs.beryl.cc/v2_2/Greater_Manchester/gbfs.json",
-        "lat": 53.470,
-        "lon": -2.248,
-        "zoom": 13
-      },
-      {
-        "id": 2,
-        "name": "West Midlands",
-        "url": "https://gbfs.beryl.cc/v2_2/West_Midlands/gbfs.json",
-        "lat": 52.482,
-        "lon": -1.900,
-        "zoom": 11
-      },
-    ],
-  };
+  const locations = locationData;
 
   // State
   const [selectedLocation, setSelectedLocation] = useState(locations.location[0]);
