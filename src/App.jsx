@@ -12,7 +12,7 @@ function App() {
   const locations = locationData;
 
   // State
-  const [selectedLocation, setSelectedLocation] = useState(locations.location[0]);
+  const [selectedLocation, setSelectedLocation] = useState(locations.location[2]);
   const [baseURL, setBaseURL] = useState(selectedLocation.url);
   const [isSidebarVisible, setSidebarVisible] = useState(true);
   const [selectedStation, setSelectedStation] = useState(null);
