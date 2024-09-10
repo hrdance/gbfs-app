@@ -50,14 +50,6 @@
     },
     {
       "id": 7,
-      "name": "Portsmoth",
-      "url": "https://gbfs.beryl.cc/v2_2/Portsmouth/gbfs.json",
-      "lat": 50.821,
-      "lon": -1.075,
-      "zoom": 13
-    },
-    {
-      "id": 8,
       "name": "Watford",
       "url": "https://gbfs.beryl.cc/v2_2/Watford/gbfs.json",
       "lat": 51.665,
@@ -65,7 +57,7 @@
       "zoom": 13
     },
     {
-      "id": 9,
+      "id": 8,
       "name": "West Midlands",
       "url": "https://gbfs.beryl.cc/v2_2/West_Midlands/gbfs.json",
       "lat": 52.482,

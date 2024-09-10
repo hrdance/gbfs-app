@@ -47,13 +47,13 @@ aside {
 
 /* Map styling */
 .map-wrap {
-  position: relative;
+  position: sticky;
   width: 100%;
   height: 100%;
 }
 
 .map {
-  position: absolute;
+  position:relative;
   width: 100%;
   height: 100%;
 }

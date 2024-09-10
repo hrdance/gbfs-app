@@ -49,7 +49,7 @@ const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation,
       });
 
       new MaptilerLayer({
-        apiKey: "7ceN16WDyUIUjj6kQnAT",
+        apiKey: "kwu7PEYivCilXIHPVBOL",
       }).addTo(mapInstance.current);
     }
 
@@ -93,6 +93,15 @@ const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation,
       }
     }
   }, [selectedStation, sidebarVisible]);
+
+  useEffect(() => {
+    if (mapInstance.current) {
+      const timeoutId = setTimeout(() => {
+        mapInstance.current.invalidateSize();
+      }, 300);
+      return () => clearTimeout(timeoutId);
+    }
+  }, [sidebarVisible]);
 
   useImperativeHandle(ref, () => ({
     centreMapOnUser() {
