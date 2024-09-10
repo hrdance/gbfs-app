@@ -15,7 +15,7 @@ function ListGroup({ items, onSelectItem }) {
               ? 'list-group-item custom-list-group-item active'
               : 'list-group-item custom-list-group-item'
             }
-            key={item.id}
+            key={item.station_id}
             onClick={() => {
               setSelectedIndex(index);
               onSelectItem(item);

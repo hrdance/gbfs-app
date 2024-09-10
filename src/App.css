@@ -72,8 +72,7 @@ aside {
 .input-icon {
   position: absolute;
   right: 10px;
-  top: 50%;
-  transform: translateY(-55%);
+  top: 4px;
   pointer-events: auto;
 }
 
@@ -82,6 +81,25 @@ aside {
   position: sticky;
   top: 0;
   z-index: 10;
+}
+
+.custom-radio {
+  background-color: white !important;
+  border-color: #dee2e6 !important;
+  transition: background-color 0.3s ease;
+}
+
+.custom-radio:hover {
+  background-color: #f0f0f0 !important;
+}
+
+input[type="radio"]:checked + .custom-radio {
+  background-color: #0d6efd !important;
+  border-color: #0d6efd !important;
+}
+
+input[type="radio"]:checked + .custom-radio img {
+  filter: brightness(0) invert(1);
 }
 
 /* List group styling */

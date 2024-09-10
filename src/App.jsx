@@ -8,7 +8,6 @@ import locationData from './assets/locations.json';
 import './App.css';
 
 function App() {
-
   const locations = locationData;
 
   // State
@@ -17,7 +16,6 @@ function App() {
   const [isSidebarVisible, setSidebarVisible] = useState(true);
   const [selectedStation, setSelectedStation] = useState(null);
   const [filteredStations, setFilteredStations] = useState([]);
-  const [filterText, setFilterText] = useState('');
   const mapRef = useRef(null);
   const [shouldRefresh, setShouldRefresh] = useState(false);
   const { allStations, loading, error } = useFetchData(baseURL + (shouldRefresh ? '?refresh' : ''));
@@ -53,27 +51,9 @@ function App() {
     setShouldRefresh((prev) => !prev);
   }, []);
 
-  // Handle filtering stations
-  const handleFilterChange = (text) => {
-    setFilterText(text);
-  };
-
-  // Filter stations based on text input
-  useEffect(() => {
-    if (filterText) {
-      const filtered = allStations.filter(station =>
-        station.name.toLowerCase().includes(filterText.toLowerCase())
-      );
-      setFilteredStations(filtered);
-    } else {
-      setFilteredStations(allStations);
-    }
-  }, [filterText, allStations]);
-
   // Handle toggling sidebar
   const toggleSidebar = () => {
     setSidebarVisible(!isSidebarVisible);
-   // setShouldRefresh((prev) => !prev);
   };
 
   // Centre view on user location
@@ -100,10 +80,8 @@ function App() {
         <aside className={`bg-light ${isSidebarVisible ? 'p-3 sidebar-visible' : 'py-3 sidebar-hidden'}`}>
           <div className="filter-sticky">
             <Filter 
-              items={filteredStations}
-              filterText={filterText}
-              onFilterTextChange={handleFilterChange}
-              onFilteredItemsChange={(filtered) => setFilteredStations(filtered)}
+              items={allStations}
+              onFilteredItemsChange={setFilteredStations}
             />
           </div>
           {loading ? (
