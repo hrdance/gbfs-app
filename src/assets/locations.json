@@ -18,6 +18,14 @@
     },
     {
       "id": 3,
+      "name": "Leeds",
+      "url": "https://gbfs.beryl.cc/v2_2/Leeds/gbfs.json",
+      "lat": 53.813,
+      "lon": -1.551,
+      "zoom": 13
+    },
+    {
+      "id": 4,
       "name": "Manchester",
       "url": "https://gbfs.beryl.cc/v2_2/Greater_Manchester/gbfs.json",
       "lat": 53.470,
@@ -25,7 +33,7 @@
       "zoom": 13
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Norwich",
       "url": "https://gbfs.beryl.cc/v2_2/Norwich/gbfs.json",
       "lat": 52.625,
@@ -33,7 +41,23 @@
       "zoom": 12
     },
     {
-      "id": 5,
+      "id": 6,
+      "name": "Plymouth",
+      "url": "https://gbfs.beryl.cc/v2_2/Plymouth/gbfs.json",
+      "lat": 50.393,
+      "lon": -4.141,
+      "zoom": 13
+    },
+    {
+      "id": 7,
+      "name": "Portsmoth",
+      "url": "https://gbfs.beryl.cc/v2_2/Portsmouth/gbfs.json",
+      "lat": 50.821,
+      "lon": -1.075,
+      "zoom": 13
+    },
+    {
+      "id": 8,
       "name": "Watford",
       "url": "https://gbfs.beryl.cc/v2_2/Watford/gbfs.json",
       "lat": 51.665,
@@ -41,7 +65,7 @@
       "zoom": 13
     },
     {
-      "id": 6,
+      "id": 9,
       "name": "West Midlands",
       "url": "https://gbfs.beryl.cc/v2_2/West_Midlands/gbfs.json",
       "lat": 52.482,
