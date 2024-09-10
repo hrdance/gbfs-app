@@ -49,7 +49,7 @@ const MapComponent = forwardRef(({ stationData, sidebarVisible, selectedStation,
       });
 
       new MaptilerLayer({
-        apiKey: "kwu7PEYivCilXIHPVBOL",
+        apiKey: "7ceN16WDyUIUjj6kQnAT",
       }).addTo(mapInstance.current);
     }
 
